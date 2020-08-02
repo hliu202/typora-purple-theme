@@ -2,10 +2,16 @@
 :root {
     --side-bar-bg-color: #fff;
     --control-text-color: #777;
+    --select-text-bg-color: rgba(223, 197, 223);  /*#7e66992e;*/
+    
     --font-sans-serif: 'Ubuntu', 'Source Sans Pro', sans-serif !important;
     --font-monospace: 'Fira Code', 'Roboto Mono', monospace !important;
     --purple: #6363ac;
     --purple-dark: #53538a;
+    --purple-light-1: rgba(99, 99, 172, .05);
+    --purple-light-2: rgba(99, 99, 172, .1);
+    --purple-light-3: rgba(99, 99, 172, .2);
+    --purple-mac: rgba(186,121,188);
 }
 
 html {
@@ -22,6 +28,7 @@ body {
     overflow-x: hidden;
 }
 
+/* 页边距 和 页面大小 */
 #write {
     padding-left: 10ch;
     padding-right: 10ch;
@@ -248,14 +255,16 @@ ol:last-child {
     margin-bottom: 0;
 }
 
+/* 引用 */
 blockquote {
     /* margin-left: 1rem; */
     border-left: 4px solid rgba(99, 99, 172, .3);
     padding: 10px 15px;
     color: #777;
-    background-color: rgba(99, 99, 172, .05);
+    background-color: var(--purple-light-1);
 }
 
+/* 表格 */
 table {
     padding: 0;
     word-break: initial;
@@ -267,9 +276,13 @@ table tr {
     padding: 0;
 }
 
+/* 表格 背景色 */
 table tr:nth-child(2n),
 thead {
-    background-color: #fafafa;
+    background-color: var(--purple-light-1);
+}
+#write table thead th {
+    background-color: var(--purple-light-2);
 }
 
 table tr th {
@@ -298,42 +311,20 @@ table tr td:last-child {
     margin-bottom: 0;
 }
 
+/* 粗体 */
 #write strong {
     padding: 0 1px;
     color: var(--purple);
 }
 
+/* 斜体 */
 #write em {
     padding: 0 5px 0 2px;
     font-style: normal;
     color: #42b983;
 }
 
-#write table thead th {
-    background-color: #f2f2f2;
-}
-
-#write .CodeMirror-gutters {
-    border-right: none;
-}
-
-#write .md-fences {
-    border: 1px solid #F4F4F4;
-    -webkit-font-smoothing: initial;
-    margin: 0.8rem 0 !important;
-    padding: 0.3rem 0 !important;
-    line-height: 1.43rem;
-    background-color: #F8F8F8 !important;
-    border-radius: 2px;
-    font-family: var(--font-monospace);
-    font-size: 0.85rem;
-    word-wrap: normal;
-}
-
-#write .CodeMirror-wrap .CodeMirror-code pre {
-    padding-left: 12px;
-}
-
+/* inline code */
 #write code, tt {
     padding: 2px 4px;
     border-radius: 2px;
@@ -349,7 +340,7 @@ tt {
 
 #write .md-footnote {
     background-color: #f8f8f8;
-    color: #fd5eb8; /* #e96900; */
+    color: #fd5eb8;
 }
 
 /* heighlight. */
@@ -358,20 +349,10 @@ tt {
     border-radius: 2px;
     padding: 2px 4px;
     margin: 0 2px;
-    /* font-weight: 500; */
 }
 
 #write del {
     padding: 1px 2px;
-}
-
-.cm-s-inner .cm-link,
-.cm-s-inner.cm-link {
-    color: #22a2c9;
-}
-
-.cm-s-inner .cm-string {
-    color: #22a2c9;
 }
 
 .md-task-list-item > input {
@@ -391,10 +372,6 @@ tt {
     pre {
         word-wrap: break-word;
     }
-}
-
-.md-fences {
-    background-color: #f8f8f8;
 }
 
 #write pre.md-meta-block {
@@ -432,6 +409,7 @@ tt {
     top: .285714286rem;
 }
 
+/* 图片 */
 .md-image > .md-meta {
     border-radius: 3px;
     font-family: var(--font-monospace);
@@ -446,6 +424,11 @@ p .md-image:only-child{
 }
 .md-tag {
     color: inherit;
+}
+/* 当 “![shadow-随便写]()”写时，会有阴影 */
+.md-image img[alt|='shadow'] {
+    /* box-shadow: 0 4px 24px -6px #ddd; */
+    box-shadow:var(--purple-light-2) 0px 10px 15px;
 }
 
 #write a.md-toc-inner {
@@ -504,7 +487,14 @@ footer {
     --item-hover-bg-color: #E6F0FE;
 }
 
+/* 代码框 */
 /* CodeMirror 3024 Day theme */
+
+/* 代码段 背景 */
+pre {
+    --select-text-bg-color: rgba(223, 197, 223) !important;
+}
+
 .cm-s-inner {
   padding: .25rem;
   border-radius: .25rem;
@@ -515,6 +505,11 @@ footer {
   color: #3a3432 !important;
   border: none;
 }
+
+/* 行号左框线 */
+/* #write .CodeMirror-gutters {
+    border-right: 1px solid var(--purple-light-2);
+} */
 
 .cm-s-inner .CodeMirror-gutters {
   color: #6d8a88;
@@ -533,7 +528,7 @@ footer {
 .cm-s-inner .CodeMirror-line > span::-moz-selection,
 .cm-s-inner .CodeMirror-line > span > span::selection,
 .cm-s-inner .CodeMirror-line > span > span::-moz-selection {
-  background: rgba(99, 99, 172, .05);
+  background: var(--purple-light-2);
 }
 
 .cm-s-inner span.cm-comment {
@@ -615,18 +610,12 @@ footer {
 }
 
 .md-fences.md-focus .cm-s-inner .CodeMirror-activeline-background {
-  background: #e8f2ff;
+  background: var(--purple-light-2);
 }
 
 .cm-s-inner .CodeMirror-matchingbracket {
   text-decoration: underline;
   color: #a34e8f !important;
-}
-
-.cm-s-inner .CodeMirror-selected, .cm-s-inner .CodeMirror-selectedtext {
-  background: #d5e2f4 !important;
-  color: inherit;
-  text-shadow: none;
 }
 
 #fences-auto-suggest .active {
