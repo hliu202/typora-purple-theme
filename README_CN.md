@@ -12,9 +12,9 @@
 
 ## 安装主题
 
-1. [下载](https://github.com/hliu202/typora-purple-theme)本主题中的`Purple.css`文件；
+1. [下载](https://github.com/hliu202/typora-purple-theme)本主题中的`purple.css`文件；
 2. 打开 Typora，点击“**偏好设置**” => “**打开主题文件夹**”按钮，将弹出 Typora 的主题文件夹；
-3. 将下载好的`Purple.css`放到 Typora 的主题文件夹中；
+3. 将下载好的`purple.css`放到 Typora 的主题文件夹中；
 4. 关闭并重新打开 Typora，从菜单栏中选择 “**主题**” => “**Purple**” 即可。
 
 ## 效果图

@@ -12,10 +12,10 @@
 
 ## Install
 
-1. [Download](https://github.com/hliu202/typora-purple-theme) this theme from Github, then you can get the `Purple.css`.
-2. Open typora. Click "**Open Theme Folder**" button from `Preference Panel` → `Apperance` section.
-3. Put `Purple.css` into the opened folder, make sure your css files are directly under that directory.
-4. Close and reopen Typora and select `Theme` → `Purple` from the menu bar.
+1. [Download](https://github.com/hliu202/typora-purple-theme) this theme from Github, then you can get the `purple.css`.
+2. Open typora. Click "**Open Theme Folder**" button from **Preference Panel** → **Apperance** section.
+3. Put `purple.css` into the opened folder, make sure your css files are directly under that directory.
+4. Close and reopen Typora and select **Theme** → **Purple** from the menu bar.
 
 ## Screenshots
 

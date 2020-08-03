@@ -389,10 +389,11 @@ tt {
     bottom: .375rem;
 }
 
-#write > h3.md-focus:before {
+/* 标题 左边提示图标 */
+/* #write > h3.md-focus:before {
     left: -1.5625rem;
     top: .375rem;
-}
+} */
 
 #write > h4.md-focus:before {
     left: -1.5625rem;

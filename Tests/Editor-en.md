@@ -11,7 +11,7 @@ H2 Header
 ----
 
 ~~Strikethrough~~ <s>Strikethrough (when enable html tag decode.)</s>
-*Italic*      _Italic_
+*Italic* _Italic_
 **Emphasis**  __Emphasis__
 ***Emphasis Italic*** ___Emphasis Italic___
 
@@ -39,13 +39,13 @@ Here’s a simple footnote, [^1] and here’s a longer one. [^bignote]
 
 [^bignote]: Here's one with multiple paragraphs and code.
 
-###Code Blocks
+### Code Blocks
 
-####Inline code
+#### Inline code
 
 `$ npm install marked`
 
-####Javascript　
+#### Javascript　
 
 ```javascript
 function test(){
@@ -103,9 +103,9 @@ testBox.add("jQuery").remove("jQuery");
 
 
 
-###Lists
+### Lists
 
-####Unordered list
+#### Unordered list
 
 + Item A
 + Item B
@@ -113,12 +113,13 @@ testBox.add("jQuery").remove("jQuery");
     + Item B 2
     + Item B 3
 
-####Ordered list
+#### Ordered list
 
 1. Item A
 2. Item B
 3. Item C
-####GFM task list
+
+#### GFM task list
 
 - [x] GFM task list 1
 - [x] GFM task list 2
@@ -127,7 +128,7 @@ testBox.add("jQuery").remove("jQuery");
   - [ ] GFM task list 3-2
   - [ ] GFM task list 3-3
 
-###Tables
+### Tables
 
 First Header  | Second Header
 ------------- | -------------
@@ -153,7 +154,7 @@ Content Cell  | Content Cell
 
 ----
 
-####HTML entities
+#### HTML entities
 
 &copy; &  &uml; &trade; &iexcl; &pound;
 &amp; &lt; &gt; &yen; &euro; &reg; &plusmn; &para; &sect; &brvbar; &macr; &laquo; &middot; 
@@ -172,7 +173,8 @@ $$\(\sqrt{3x-1}+(1+x)^2\)$$
                     
 $$\sin(\alpha)^{\theta}=\sum_{i=0}^{n}(x^i + \cos(f))$$
                 
-###FlowChart
+
+### FlowChart
 
 ```flow
 st=>start: Login
@@ -185,7 +187,7 @@ cond(yes)->e
 cond(no)->op
 ```
 
-###Sequence Diagram
+### Sequence Diagram
 
 ```seq
 Andrew->China: Says Hello 
@@ -194,4 +196,4 @@ China-->Andrew: How are you?
 Andrew->>China: I am good thanks!
 ```
 
-###End
+### End
