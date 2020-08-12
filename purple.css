@@ -77,7 +77,8 @@ h6 {
     position: relative;
     margin-top: 2rem;
     margin-bottom: 1rem;
-    font-weight: bold;
+    /* font-weight: bold; */
+    font-weight: 500 !important;
     line-height: 1.4;
     cursor: text;
     color: var(--purple-dark)
