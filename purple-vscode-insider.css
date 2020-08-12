@@ -4,10 +4,12 @@
     --control-text-color: #777;
     --select-text-bg-color: rgba(223, 197, 223);  /*#7e66992e;*/
     
+    --title-color: #009A7C;
     --font-sans-serif: 'Ubuntu', 'Source Sans Pro', sans-serif !important;
     --font-monospace: 'Fira Code', 'Roboto Mono', monospace !important;
-    --purple: #6363ac;
-    --purple-dark: #53538a;
+    --purple-1: #00BFA5;
+    --purple-2: #79589F;
+    --purple-3: #fd5eb8;
     --purple-light-1: rgba(99, 99, 172, .05);
     --purple-light-2: rgba(99, 99, 172, .1);
     --purple-light-3: rgba(99, 99, 172, .2);
@@ -58,13 +60,13 @@ body > *:last-child {
 }
 
 a {
-    color: var(--purple);
+    color: var(--purple-1);
     padding: 0 2px;
     text-decoration: none;
 }
 #write a {
-    border-bottom: 1px solid var(--purple);
-    color: var(--purple);
+    border-bottom: 1px solid var(--purple-1);
+    color: var(--purple-1);
     text-decoration: none;
 }
 
@@ -81,7 +83,8 @@ h6 {
     font-weight: 500 !important;
     line-height: 1.4;
     cursor: text;
-    color: var(--purple-dark)
+    color: var(--title-color);
+    font-family: var(--font-sans-serif);
 }
 
 h1:hover a.anchor,
@@ -137,7 +140,7 @@ h1:after {
     margin: 0.2em auto 0;
     width: 100px;
     height: 2px;
-    border-bottom: 2px solid var(--purple-dark);
+    border-bottom: 2px solid var(--title-color);
 }
 
 h2 {
@@ -145,8 +148,8 @@ h2 {
     padding-left: 10px;
     line-height: 1.4;
     font-size: 1.8em;
-    border-left: 9px solid var(--purple-dark);
-    border-bottom: 1px solid var(--purple-dark);
+    border-left: 9px solid var(--title-color);
+    border-bottom: 1px solid var(--title-color);
 }
 /* h3 {
     font-size: 1.5rem;
@@ -154,7 +157,7 @@ h2 {
     margin: 1.6em auto 1.2em;
     padding-left: 9px;
     display: inline;
-    border-left: 5px solid var(--purple-dark);
+    border-left: 5px solid var(--title-color);
 } */
 h3 {
     font-size: 1.5rem;
@@ -314,13 +317,13 @@ table tr td:last-child {
 
 /* 粗体 */
 #write strong {
-    padding: 0 1px;
-    color: var(--purple);
+    padding: 0 2px;
+    color: var(--purple-1);
 }
 
 /* 斜体 */
 #write em {
-    padding: 0 5px 0 2px;
+    padding: 0 2px;
     font-style: normal;
     color: #42b983;
 }
@@ -331,7 +334,7 @@ table tr td:last-child {
     border-radius: 2px;
     font-family: var(--font-monospace);
     font-size: 0.92rem;
-    color: #fd5eb8; 
+    color: var(--purple-3); 
     background-color: rgba(99, 99, 172, .05);
 }
 
@@ -341,7 +344,7 @@ tt {
 
 #write .md-footnote {
     background-color: #f8f8f8;
-    color: #fd5eb8;
+    color: var(--purple-3);
 }
 
 /* heighlight. */
