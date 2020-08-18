@@ -4,10 +4,10 @@
     --control-text-color: #777;
     --select-text-bg-color: rgba(223, 197, 223);  /*#7e66992e;*/
     
-    --title-color: #009A7C;
+    --title-color: #6c549c;
     --font-sans-serif: 'Ubuntu', 'Source Sans Pro', sans-serif !important;
     --font-monospace: 'Fira Code', 'Roboto Mono', monospace !important;
-    --purple-1: #00BFA5;
+    --purple-1: #8163bd;
     --purple-2: #79589F;
     --purple-3: #fd5eb8;
     --purple-light-1: rgba(99, 99, 172, .05);
@@ -144,25 +144,16 @@ h1:after {
 }
 
 h2 {
-    margin: 1.6em auto 1.4em;
+    margin: 1.6em auto 1em;
     padding-left: 10px;
     line-height: 1.4;
     font-size: 1.8em;
     border-left: 9px solid var(--title-color);
     border-bottom: 1px solid var(--title-color);
 }
-/* h3 {
-    font-size: 1.5rem;
-    line-height: 1.43;
-    margin: 1.6em auto 1.2em;
-    padding-left: 9px;
-    display: inline;
-    border-left: 5px solid var(--title-color);
-} */
 h3 {
     font-size: 1.5rem;
-    line-height: 1.43;
-    margin: 20px 0 7px;
+    margin: 1.2em auto 1em;
 }
 h4 {
     font-size: 1.3rem;
