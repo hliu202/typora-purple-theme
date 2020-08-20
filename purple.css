@@ -13,7 +13,6 @@
     --purple-light-1: rgba(99, 99, 172, .05);
     --purple-light-2: rgba(99, 99, 172, .1);
     --purple-light-3: rgba(99, 99, 172, .2);
-    --purple-mac: rgba(186,121,188);
 }
 
 html {
@@ -384,27 +383,6 @@ tt {
     bottom: .375rem;
 }
 
-/* 标题 左边提示图标 */
-/* #write > h3.md-focus:before {
-    left: -1.5625rem;
-    top: .375rem;
-} */
-
-#write > h4.md-focus:before {
-    left: -1.5625rem;
-    top: .285714286rem;
-}
-
-#write > h5.md-focus:before {
-    left: -1.5625rem;
-    top: .285714286rem;
-}
-
-#write > h6.md-focus:before {
-    left: -1.5625rem;
-    top: .285714286rem;
-}
-
 /* 图片 */
 .md-image > .md-meta {
     border-radius: 3px;
@@ -497,14 +475,14 @@ pre {
 }
 
 .cm-s-inner.CodeMirror, .cm-s-inner .CodeMirror-gutters {
-  background-color: #fafafa !important;
+  background-color: #f7f7fb !important; /* #fafafa !important;*/
   color: #3a3432 !important;
   border: none;
 }
 
 /* 行号左框线 */
 /* #write .CodeMirror-gutters {
-    border-right: 1px solid var(--purple-light-2);
+    border-right: 1px solid var(--purple-light-3);
 } */
 
 .cm-s-inner .CodeMirror-gutters {
@@ -577,7 +555,7 @@ pre {
 }
 
 .cm-s-inner span.cm-qualifier {
-  color: #50fa7b;
+  color: #388aa3;
 }
 
 .cm-s-inner span.cm-property {
@@ -585,7 +563,7 @@ pre {
 }
 
 .cm-s-inner span.cm-builtin {
-  color: #50fa7b;
+  color: #388aa3;
 }
 
 .cm-s-inner span.cm-variable-3, .cm-s-inner span.cm-type {
@@ -605,9 +583,9 @@ pre {
   color: #5c5855;
 }
 
-.md-fences.md-focus .cm-s-inner .CodeMirror-activeline-background {
+/* .md-fences.md-focus .cm-s-inner .CodeMirror-activeline-background {
   background: var(--purple-light-2);
-}
+} */
 
 .cm-s-inner .CodeMirror-matchingbracket {
   text-decoration: underline;
