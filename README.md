@@ -4,7 +4,7 @@
 
 [中文](README_CN.md)
 
-> `Simple, clean`, this is a **purple** theme for Typora
+> `Simple, clean`,  a **purple** theme for Typora
 
 ## Introduction
 
@@ -18,6 +18,8 @@
 4. Close and reopen Typora and select **Theme** → **Purple** from the menu bar.
 
 ## Screenshots
+
+![shadow](ScreenShots/en/0.png)
 
 ![shadow](ScreenShots/en/1.png)
 

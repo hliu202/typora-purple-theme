@@ -8,8 +8,6 @@ H2 Header
 
 ### Characters
 
-----
-
 ~~Strikethrough~~ <s>Strikethrough (when enable html tag decode.)</s>
 *Italic* _Italic_
 **Emphasis**  __Emphasis__
@@ -26,6 +24,8 @@ Superscript: X<sub>2</sub>，Subscript: O<sup>2</sup>
 ### Blockquotes
 
 > "Blockquotes `Blockquotes`", [Link](http://localhost/)。
+>
+> > another blockquote
 
 ### Links
 
@@ -86,7 +86,7 @@ var testBox = box();
 testBox.add("jQuery").remove("jQuery");
 ```
 
-####HTML code
+#### HTML code
 
 ```html
 <!DOCTYPE html>
