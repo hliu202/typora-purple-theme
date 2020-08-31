@@ -1,3 +1,6 @@
+![shadow](ScreenShots/en/0.png)
+
+
 [TOC]
 
 # typora-purple-theme
@@ -20,8 +23,6 @@
 
 
 ## Screenshots
-
-![shadow](ScreenShots/en/0.png)
 
 ![shadow](ScreenShots/en/1.png)
 

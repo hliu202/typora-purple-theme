@@ -1,3 +1,6 @@
+![shadow](ScreenShots/cn/0.png)
+
+
 [TOC]
 
 # typora-purple-theme
@@ -20,8 +23,6 @@
 
 
 ## 效果图
-
-![shadow](ScreenShots/cn/0.png)
 
 ![shadow](ScreenShots/cn/1.png)
 
