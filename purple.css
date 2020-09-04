@@ -21,6 +21,7 @@
     --purple-light-3: rgba(99, 99, 172, .2);
     --purple-light-4: rgba(129, 99, 189, .3);
     --purple-light-5: #E9E4F0;
+    --purple-light-6: rgba(129, 99, 189, .8);
 }
 
 html {
@@ -70,6 +71,9 @@ a {
     color: var(--purple-1);
     padding: 0 2px;
     text-decoration: none;
+}
+.md-content {
+    color: var(--purple-light-6);
 }
 #write a {
     border-bottom: 1px solid var(--purple-1);
