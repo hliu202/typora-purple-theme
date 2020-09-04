@@ -687,7 +687,6 @@ pre {
 
 .file-list-item-summary {
     font-weight: 400;
-    color: var(--purple-light-5); 
 }
 
 .file-list-item.active {
@@ -711,7 +710,6 @@ pre {
 
 .sidebar-tabs {
     border-bottom: none;
-    background-color: var(--active-file-text-color);
 }
 .sidebar-tab.active {
     font-weight: 400;
