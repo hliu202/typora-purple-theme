@@ -718,3 +718,8 @@ pre {
 .sidebar-content-content {
     font-size: 0.9rem;
 }
+
+/* 搜索 */
+.ty-file-search-match-text {
+    background-color: var(--purple-light-4);
+}
