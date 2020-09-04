@@ -1,9 +1,15 @@
 
 :root {
-    --side-bar-bg-color: #fff;
     --control-text-color: #777;
     --select-text-bg-color: rgba(223, 197, 223);  /*#7e66992e;*/
     
+    /* side bar */
+    --side-bar-bg-color: rgb(255, 255, 255);
+    --active-file-text-color: #8163bd;
+    --active-file-bg-color: #E9E4F0;
+    --item-hover-bg-color: #E9E4F0;
+    --active-file-border-color: #8163bd;
+
     --title-color: #6c549c;
     --font-sans-serif: 'Ubuntu', 'Source Sans Pro', sans-serif !important;
     --font-monospace: 'Fira Code', 'Roboto Mono', monospace !important;
@@ -13,6 +19,8 @@
     --purple-light-1: rgba(99, 99, 172, .05);
     --purple-light-2: rgba(99, 99, 172, .1);
     --purple-light-3: rgba(99, 99, 172, .2);
+    --purple-light-4: rgba(129, 99, 189, .3);
+    --purple-light-5: #E9E4F0;
 }
 
 html {
@@ -31,8 +39,8 @@ body {
 
 /* 页边距 和 页面大小 */
 #write {
-    padding-left: 10ch;
-    padding-right: 10ch;
+    padding-left: 6ch;
+    padding-right: 6ch;
     margin: 0 auto;
 }
 
@@ -76,8 +84,8 @@ h4,
 h5,
 h6 {
     position: relative;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
     /* font-weight: bold; */
     font-weight: 500 !important;
     line-height: 1.4;
@@ -143,7 +151,7 @@ h1:after {
 }
 
 h2 {
-    margin: 1.6em auto 1em;
+    margin: 1.6em auto 0.5em;
     padding-left: 10px;
     line-height: 1.4;
     font-size: 1.8em;
@@ -152,7 +160,7 @@ h2 {
 }
 h3 {
     font-size: 1.5rem;
-    margin: 1.2em auto 1em;
+    margin: 1.2em auto 0.5em;
 }
 h4 {
     font-size: 1.3rem;
@@ -252,7 +260,7 @@ ol:last-child {
 /* 引用 */
 blockquote {
     /* margin-left: 1rem; */
-    border-left: 4px solid rgba(99, 99, 172, .3);
+    border-left: 4px solid var(--purple-light-4);
     padding: 10px 15px;
     color: #777;
     background-color: var(--purple-light-1);
@@ -409,10 +417,7 @@ p .md-image:only-child{
     line-height: 1.6;
     white-space: pre-line;
     border-bottom: none;
-}
-
-.sidebar-tabs {
-    border-bottom: none;
+    font-size: 15px;
 }
 
 #typora-quick-open {
@@ -431,12 +436,6 @@ p .md-image:only-child{
     top: 10px;
 }
 
-/** focus mode */
-
-.on-focus-mode blockquote {
-    border-left-color: rgba(85, 85, 85, 0.12);
-}
-
 header,
 .context-menu,
 .megamenu-content,
@@ -447,10 +446,6 @@ footer {
 .file-node-content:hover .file-node-icon,
 .file-node-content:hover .file-node-open-state {
     visibility: visible;
-}
-
-.mac-seamless-mode #typora-sidebar {
-    background-color: var(--side-bar-bg-color);
 }
 
 .md-lang {
@@ -469,21 +464,22 @@ pre {
     --select-text-bg-color: rgba(223, 197, 223) !important;
 }
 
+/* 边框 */
+.md-fences {
+    border: 1px solid #e7eaed;
+    border-radius: 3px;
+}
+
 .cm-s-inner {
   padding: .25rem;
   border-radius: .25rem;
 }
 
 .cm-s-inner.CodeMirror, .cm-s-inner .CodeMirror-gutters {
-  background-color: #f7f7fb !important; /* #fafafa !important;*/
+  background-color: #f8f8f8 !important;
   color: #3a3432 !important;
   border: none;
 }
-
-/* 行号左框线 */
-/* #write .CodeMirror-gutters {
-    border-right: 1px solid var(--purple-light-3);
-} */
 
 .cm-s-inner .CodeMirror-gutters {
   color: #6d8a88;
@@ -673,4 +669,50 @@ pre {
 
 #write .md-task-list-item.task-list-done > p > .md-link > a {
   opacity: .6;
+}
+
+/* sidebar and outline */
+.pin-outline .outline-active {
+  color: var(--active-file-text-color); 
+}
+
+.file-list-item {
+    border-bottom: 1px solid;
+    border-color: var(--purple-light-5);
+}
+
+.file-list-item-summary {
+    font-weight: 400;
+    color: var(--purple-light-5); 
+}
+
+.file-list-item.active {
+    color: var(--active-file-text-color);
+    background-color: var(--purple-light-5);
+}
+
+.file-tree-node.active>.file-node-background {
+    background-color: var(--purple-light-5);
+    font-weight: 700;
+} 
+
+.file-tree-node.active>.file-node-content {
+    color: var(--active-file-text-color);
+    font-weight: 700;
+}
+
+.file-node-content {
+    color: #5e676d;
+}
+
+.sidebar-tabs {
+    border-bottom: none;
+    background-color: var(--active-file-text-color);
+}
+.sidebar-tab.active {
+    font-weight: 400;
+}
+
+.sidebar-content-content {
+    font-size: 15px;
 }
