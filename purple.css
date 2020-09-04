@@ -24,9 +24,9 @@
     --purple-light-6: rgba(129, 99, 189, .8);
 }
 
-html {
+/* html {
     font-size: 16px;
-}
+} */
 
 body {
     font-family: var(--font-sans-serif);
@@ -367,7 +367,7 @@ tt {
 
 @media print {
     html {
-        font-size: 13px;
+        font-size: 0.9rem;
     }
 
     table,
@@ -421,7 +421,7 @@ p .md-image:only-child{
     line-height: 1.6;
     white-space: pre-line;
     border-bottom: none;
-    font-size: 15px;
+    font-size: 0.9rem;
 }
 
 #typora-quick-open {
@@ -716,5 +716,5 @@ pre {
 }
 
 .sidebar-content-content {
-    font-size: 15px;
+    font-size: 0.9rem;
 }
