@@ -24,9 +24,9 @@
     --purple-light-6: rgba(129, 99, 189, .8);
 }
 
-/* html {
+html {
     font-size: 16px;
-} */
+}
 
 body {
     font-family: var(--font-sans-serif);
