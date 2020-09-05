@@ -2,7 +2,8 @@
 :root {
     --control-text-color: #777;
     --select-text-bg-color: rgba(223, 197, 223);  /*#7e66992e;*/
-    
+    --search-select-bg-color: #8163bd;
+
     /* side bar */
     --side-bar-bg-color: rgb(255, 255, 255);
     --active-file-text-color: #8163bd;
