@@ -191,14 +191,11 @@ li > ul {
     margin: 0 0;
 }
 
+/* horizontal rule */
 hr {
-    height: 2px;
-    padding: 0;
     margin: 16px 0;
-    background-color: #e7e7e7;
-    border: 0 none;
-    overflow: hidden;
-    box-sizing: content-box;
+    border: 0;
+    border-top: 1px solid #eee;
 }
 
 body > h2:first-child {
