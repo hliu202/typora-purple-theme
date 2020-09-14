@@ -144,7 +144,7 @@ h1 {
     padding-bottom: 0.3em;
     font-size: 2.2em;
     line-height: 1.2;
-    margin: 2.4em auto 1.2em;
+    margin: 1.6em auto 1em;
 }
 h1:after {
     content: '';
@@ -156,7 +156,7 @@ h1:after {
 }
 
 h2 {
-    margin: 1.6em auto 0.5em;
+    margin: 1.4em auto 0.8em;
     padding-left: 10px;
     line-height: 1.4;
     font-size: 1.8em;
