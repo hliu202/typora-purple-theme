@@ -17,6 +17,7 @@
     --purple-1: #8163bd;
     --purple-2: #79589F;
     --purple-3: #fd5eb8;
+    --purple-4: #bb60d5;
     --purple-light-1: rgba(99, 99, 172, .05);
     --purple-light-2: rgba(99, 99, 172, .1);
     --purple-light-3: rgba(99, 99, 172, .2);
@@ -92,7 +93,7 @@ h6 {
     margin-top: 1rem;
     margin-bottom: 0.5rem;
     /* font-weight: bold; */
-    font-weight: 500 !important;
+    font-weight: 400;
     line-height: 1.4;
     cursor: text;
     color: var(--title-color);
@@ -290,7 +291,7 @@ thead {
 }
 
 table tr th {
-    font-weight: bold;
+    font-weight: 500;
     border: 1px solid #dfe2e5;
     border-bottom: 0;
     text-align: left;
@@ -319,6 +320,7 @@ table tr td:last-child {
 #write strong {
     padding: 0 2px;
     color: var(--purple-1);
+    font-weight: 500;
 }
 
 /* 斜体 */
@@ -334,7 +336,7 @@ table tr td:last-child {
     border-radius: 2px;
     font-family: var(--font-monospace);
     font-size: 0.92rem;
-    color: var(--purple-3); 
+    color: var(--purple-4); 
     background-color: rgba(99, 99, 172, .05);
 }
 
@@ -344,12 +346,12 @@ tt {
 
 #write .md-footnote {
     background-color: #f8f8f8;
-    color: var(--purple-3);
+    color: var(--purple-4);
 }
 
 /* heighlight. */
 #write mark {
-    background-color: #fbd3ea;
+    background-color: rgba(251, 211, 234, 0.6);
     border-radius: 2px;
     padding: 2px 4px;
     margin: 0 2px;
