@@ -327,7 +327,7 @@ table tr td:last-child {
 #write em {
     padding: 0 5px 0 2px;
     /* font-style: normal; */
-    color: #42b983;
+    color: #4abdeb;
 }
 
 /* inline code */
@@ -724,4 +724,9 @@ pre {
 /* 搜索 */
 .ty-file-search-match-text {
     background-color: var(--purple-light-4);
+}
+.md-search-hit {
+    background-color: var(--purple-light-4);
+    contain: style;
+    transform: translate3d(0,0,0);
 }
