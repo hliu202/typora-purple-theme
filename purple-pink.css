@@ -100,15 +100,6 @@ h6 {
     font-family: var(--font-sans-serif);
 }
 
-h1:hover a.anchor,
-h2:hover a.anchor,
-h3:hover a.anchor,
-h4:hover a.anchor,
-h5:hover a.anchor,
-h6:hover a.anchor {
-    text-decoration: none;
-}
-
 h1 tt,
 h1 code {
     font-size: inherit !important;

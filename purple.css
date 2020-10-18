@@ -71,7 +71,6 @@ body > *:last-child {
 
 a {
     color: var(--purple-1);
-    padding: 0 2px;
     text-decoration: none;
 }
 .md-content {
@@ -98,15 +97,6 @@ h6 {
     cursor: text;
     color: var(--title-color);
     font-family: var(--font-sans-serif);
-}
-
-h1:hover a.anchor,
-h2:hover a.anchor,
-h3:hover a.anchor,
-h4:hover a.anchor,
-h5:hover a.anchor,
-h6:hover a.anchor {
-    text-decoration: none;
 }
 
 h1 tt,
@@ -143,7 +133,7 @@ h1 {
 h1 {
     text-align: center;
     padding-bottom: 0.3em;
-    font-size: 2.2em;
+    font-size: 2em;
     line-height: 1.2;
     margin: 1.6em auto 1em;
 }
@@ -159,8 +149,8 @@ h1:after {
 h2 {
     margin: 1.4em auto 0.8em;
     padding-left: 10px;
-    line-height: 1.4;
-    font-size: 1.8em;
+    line-height: 1.2;
+    font-size: 1.7em;
     border-left: 9px solid var(--title-color);
     border-bottom: 1px solid var(--title-color);
 }
@@ -197,48 +187,6 @@ hr {
     margin: 16px 0;
     border: 0;
     border-top: 1px solid #eee;
-}
-
-body > h2:first-child {
-    margin-top: 0;
-    padding-top: 0;
-}
-
-body > h1:first-child {
-    margin-top: 0;
-    padding-top: 0;
-}
-
-body > h1:first-child + h2 {
-    margin-top: 0;
-    padding-top: 0;
-}
-
-body > h3:first-child,
-body > h4:first-child,
-body > h5:first-child,
-body > h6:first-child {
-    margin-top: 0;
-    padding-top: 0;
-}
-
-a:first-child h1,
-a:first-child h2,
-a:first-child h3,
-a:first-child h4,
-a:first-child h5,
-a:first-child h6 {
-    margin-top: 0;
-    padding-top: 0;
-}
-
-h1 p,
-h2 p,
-h3 p,
-h4 p,
-h5 p,
-h6 p {
-    margin-top: 0;
 }
 
 li p.first {
