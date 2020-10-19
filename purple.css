@@ -133,7 +133,7 @@ h1 {
 h1 {
     text-align: center;
     padding-bottom: 0.3em;
-    font-size: 2em;
+    font-size: 2.2em;
     line-height: 1.2;
     margin: 1.6em auto 1em;
 }
@@ -149,8 +149,8 @@ h1:after {
 h2 {
     margin: 1.4em auto 0.8em;
     padding-left: 10px;
-    line-height: 1.2;
-    font-size: 1.7em;
+    line-height: 1.4;
+    font-size: 1.8em;
     border-left: 9px solid var(--title-color);
     border-bottom: 1px solid var(--title-color);
 }
@@ -268,7 +268,7 @@ table tr td:last-child {
 #write strong {
     padding: 0 2px;
     color: var(--purple-1);
-    font-weight: 500;
+    font-weight: 600;
 }
 
 /* 斜体 */
@@ -676,5 +676,5 @@ pre {
 .md-search-hit {
     background-color: var(--purple-light-4);
     contain: style;
-    /* transform: translate3d(0,0,0); */
 }
+

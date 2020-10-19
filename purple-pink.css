@@ -71,7 +71,6 @@ body > *:last-child {
 
 a {
     color: var(--purple-1);
-    padding: 0 2px;
     text-decoration: none;
 }
 .md-content {
@@ -190,48 +189,6 @@ hr {
     border-top: 1px solid #eee;
 }
 
-body > h2:first-child {
-    margin-top: 0;
-    padding-top: 0;
-}
-
-body > h1:first-child {
-    margin-top: 0;
-    padding-top: 0;
-}
-
-body > h1:first-child + h2 {
-    margin-top: 0;
-    padding-top: 0;
-}
-
-body > h3:first-child,
-body > h4:first-child,
-body > h5:first-child,
-body > h6:first-child {
-    margin-top: 0;
-    padding-top: 0;
-}
-
-a:first-child h1,
-a:first-child h2,
-a:first-child h3,
-a:first-child h4,
-a:first-child h5,
-a:first-child h6 {
-    margin-top: 0;
-    padding-top: 0;
-}
-
-h1 p,
-h2 p,
-h3 p,
-h4 p,
-h5 p,
-h6 p {
-    margin-top: 0;
-}
-
 li p.first {
     display: inline-block;
 }
@@ -311,7 +268,7 @@ table tr td:last-child {
 #write strong {
     padding: 0 2px;
     color: var(--purple-1);
-    font-weight: 500;
+    font-weight: 600;
 }
 
 /* 斜体 */
@@ -719,5 +676,5 @@ pre {
 .md-search-hit {
     background-color: var(--purple-light-4);
     contain: style;
-    transform: translate3d(0,0,0);
 }
+
