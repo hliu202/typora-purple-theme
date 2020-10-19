@@ -419,8 +419,8 @@ pre {
 /* border and bg */
 .md-fences {
     border: 1px solid #e7eaed;
-    border-radius: 3px;
-    background: #ffffff !important;
+    border-radius: 5px;
+    background: #fdfdfd !important;
 }
 
 .cm-s-inner {
@@ -532,9 +532,9 @@ pre {
   color: #5c5855;
 }
 
-.md-fences.md-focus .cm-s-inner .CodeMirror-activeline-background {
+/* .md-fences.md-focus .cm-s-inner .CodeMirror-activeline-background {
   background: var(--purple-light-2);
-}
+} */
 
 .cm-s-inner .CodeMirror-matchingbracket {
   text-decoration: underline;
