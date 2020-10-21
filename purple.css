@@ -271,6 +271,7 @@ table tr td:last-child {
 #write strong {
   padding: 0 2px;
   /* color: var(--purple-1); */
+  color: #3b3b3b;
   font-weight: 600;
 }
 
