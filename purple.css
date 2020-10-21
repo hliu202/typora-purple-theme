@@ -268,15 +268,15 @@ table tr td:last-child {
 /* 粗体 */
 #write strong {
   padding: 0 2px;
-  color: var(--purple-1);
+  /* color: var(--purple-1); */
   font-weight: 600;
 }
 
 /* 斜体 */
 #write em {
   padding: 0 5px 0 2px;
-  font-style: normal;
-  color: #4abdeb;
+  /* font-style: normal;
+  color: #4abdeb; */
 }
 
 /* inline code */
