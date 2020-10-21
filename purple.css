@@ -22,7 +22,9 @@
   --purple-light-3: rgba(99, 99, 172, 0.2);
   --purple-light-4: rgba(129, 99, 189, 0.3);
   --purple-light-5: #e9e4f0;
-  --purple-light-6: rgba(129, 99, 189, 0.8);
+  --purple-light-6: rgba(129, 99, 189, 0.7);
+
+  --shadow: var(--purple-light-3) 0px 5px 10px;
 }
 
 html {
@@ -73,13 +75,13 @@ a {
   color: var(--purple-1);
   text-decoration: none;
 }
-.md-content {
-  color: var(--purple-light-6);
-}
-#write a {
+#write a:hover {
   border-bottom: 1px solid var(--purple-1);
   color: var(--purple-1);
   text-decoration: none;
+}
+.md-content {
+  color: var(--purple-light-6);
 }
 
 h1,
@@ -365,8 +367,9 @@ p .md-image:only-child {
 
 /* 默认有阴影 */
 #write img {
-  box-shadow: var(--purple-light-2) 0px 10px 15px;
+  box-shadow: var(--shadow);
   border-radius: 5px;
+  max-width: 914px;
 }
 
 /* 写![no-shadow...]() 使图片去掉阴影 */
@@ -437,6 +440,12 @@ pre {
   border-radius: 5px;
   background: #fdfdfd !important;
 }
+#write pre.md-fences {
+  /* padding: 1rem 0.5rem 1rem; */
+  display: block;
+  -webkit-overflow-scrolling: touch;
+  box-shadow: var(--shadow);
+}
 
 .cm-s-inner {
   padding: 0.25rem;
@@ -454,12 +463,13 @@ pre {
   color: #6d8a88;
 }
 
+/* 光标 */
 .cm-s-inner .CodeMirror-cursor {
-  border-left: solid thin #5c5855 !important;
+  border-left: solid thin var(--title-color) !important;
 }
 
 .cm-s-inner .CodeMirror-linenumber {
-  color: #807d7c;
+  color: #b8b5b4;
 }
 
 .cm-s-inner .CodeMirror-line::selection,
@@ -701,11 +711,12 @@ pre {
 }
 
 element.style {
-    width: calc(100% - 18px);
+  width: calc(100% - 18px);
 }
 #file-library-search-input:focus {
-    border-color: var(--purple-1);
+  border-color: var(--purple-1);
 }
-.code-tooltip .ty-input:focus, input:focus {
-    border-color: var(--purple-1);
+.code-tooltip .ty-input:focus,
+input:focus {
+  border-color: var(--purple-1);
 }
