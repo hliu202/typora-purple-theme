@@ -42,9 +42,10 @@ body {
 
 /* 页边距 和 页面大小 */
 #write {
-    padding-left: 6ch;
-    padding-right: 6ch;
+    /* max-width: 914px; */
     margin: 0 auto;
+    padding: 60px;
+    padding-bottom: 100px;
 }
 
 #write p {
@@ -52,9 +53,9 @@ body {
     word-spacing: .05rem;
 }
 
-#write ol li {
+/* #write ol li {
     padding-left: 0.5rem;
-}
+} */
 
 #write > ul:first-child,
 #write > ol:first-child {
@@ -193,10 +194,10 @@ li p.first {
     display: inline-block;
 }
 
-ul,
+/* ul,
 ol {
     padding-left: 30px;
-}
+} */
 
 ul:first-child,
 ol:first-child {
