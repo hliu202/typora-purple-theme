@@ -212,7 +212,7 @@ ol:last-child {
 /* 引用 */
 blockquote {
   /* margin-left: 1rem; */
-  border-left: 4px solid var(--purple-light-4);
+  border-left: 0.3rem solid var(--purple-light-4);
   border-radius: 0.3rem;
   padding: 10px 15px;
   color: #777;
