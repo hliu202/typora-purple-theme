@@ -211,6 +211,7 @@ ol:last-child {
 blockquote {
   /* margin-left: 1rem; */
   border-left: 4px solid var(--purple-light-4);
+  border-radius: 0.3rem;
   padding: 10px 15px;
   color: #777;
   background-color: var(--purple-light-1);
@@ -682,6 +683,9 @@ pre {
 .sidebar-tab.active {
   font-weight: 400;
 }
+.info-panel-tab-border {
+  color: var(--purple-1);
+}
 
 .sidebar-content-content {
   font-size: 0.9rem;
@@ -694,4 +698,14 @@ pre {
 .md-search-hit {
   background-color: var(--purple-light-4);
   contain: style;
+}
+
+element.style {
+    width: calc(100% - 18px);
+}
+#file-library-search-input:focus {
+    border-color: var(--purple-1);
+}
+.code-tooltip .ty-input:focus, input:focus {
+    border-color: var(--purple-1);
 }
