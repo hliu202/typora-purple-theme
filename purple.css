@@ -11,10 +11,11 @@
   --active-file-border-color: #8163bd;
 
   --title-color: #6c549c;
+  --strong-color: #3b3b3b;
   --font-sans-serif: "Ubuntu", "Source Sans Pro", sans-serif !important;
   --font-monospace: "Fira Code", "Roboto Mono", monospace !important;
 
-  --base-font: "Poppins", -apple-system, "Noto Sans", "Helvetica Neue",
+  --base-font: -apple-system, "Noto Sans", "Helvetica Neue",
     Helvetica, "Nimbus Sans L", Arial, "Liberation Sans", "Noto Sans CJK SC",
     "PingFang SC", "Hiragino Sans GB", "Source Han Sans SC",
     "Source Han Sans CN", "Microsoft YaHei", "Wenquanyi Micro Hei",
@@ -244,7 +245,7 @@ ol:last-child {
 blockquote {
   /* margin-left: 1rem; */
   border-left: 0.3rem solid var(--purple-light-4);
-  border-radius: 0.3rem;
+  border-radius: 0.4rem;
   padding: 10px 15px;
   color: #777;
   background-color: var(--purple-light-1);
@@ -303,7 +304,7 @@ table tr td:last-child {
 #write strong {
   padding: 0 2px;
   /* color: var(--purple-1); */
-  color: #3b3b3b;
+  color: var(--strong-color);
   font-weight: 600;
   font-family: var(--em-font);
 }
