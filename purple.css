@@ -15,12 +15,11 @@
   --font-sans-serif: "Ubuntu", "Source Sans Pro", sans-serif !important;
   --font-monospace: "Fira Code", "Roboto Mono", monospace !important;
 
-  --base-font: -apple-system, "Noto Sans", "Helvetica Neue",
-    Helvetica, "Nimbus Sans L", Arial, "Liberation Sans", "Noto Sans CJK SC",
-    "PingFang SC", "Hiragino Sans GB", "Source Han Sans SC",
-    "Source Han Sans CN", "Microsoft YaHei", "Wenquanyi Micro Hei",
-    "WenQuanYi Zen Hei", "ST Heiti", SimHei, "WenQuanYi Zen Hei Sharp", "Ubuntu",
-    "Source Sans Pro", sans-serif;
+  --base-font: -apple-system, "Noto Sans", "Helvetica Neue", Helvetica,
+    "Nimbus Sans L", Arial, "Liberation Sans", "Noto Sans CJK SC", "PingFang SC",
+    "Hiragino Sans GB", "Source Han Sans SC", "Source Han Sans CN",
+    "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti",
+    SimHei, "WenQuanYi Zen Hei Sharp", "Ubuntu", "Source Sans Pro", sans-serif;
   --title-font: "EB Garamond", Georgia, "Nimbus Roman No9 L",
     "Noto Serif CJK SC", "Songti SC", "Source Han Serif SC",
     "Source Han Serif CN", STSong, "AR PL New Sung", "AR PL SungtiL GB", NSimSun,
@@ -505,6 +504,7 @@ pre {
 }
 
 .cm-s-inner .CodeMirror-linenumber {
+  padding: 0 0.1rem 0 0.3rem;
   color: #b8b5b4;
 }
 
