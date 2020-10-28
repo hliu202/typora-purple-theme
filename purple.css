@@ -11,7 +11,7 @@
   --active-file-border-color: #8163bd;
 
   --title-color: #6c549c;
-  --black-color: #3b3b3b;
+  --text-color: #34495e;
   --font-sans-serif: "Ubuntu", "Source Sans Pro", sans-serif !important;
   --font-monospace: "Fira Code", "Roboto Mono", monospace !important;
 
@@ -63,7 +63,7 @@ html {
 }
 
 body {
-  color: #34495e;
+  color: var(--text-color);
   -webkit-font-smoothing: antialiased;
   line-height: 1.6rem;
   letter-spacing: 0;
@@ -83,15 +83,6 @@ body {
 #write p {
   line-height: 1.6rem;
   word-spacing: 0.05rem;
-}
-
-/* #write ol li {
-    padding-left: 0.5rem;
-} */
-
-#write > ul:first-child,
-#write > ol:first-child {
-  margin-top: 30px;
 }
 
 body > *:first-child {
@@ -209,11 +200,6 @@ table {
   margin: 0.8em 0;
 }
 
-li > ol,
-li > ul {
-  margin: 0 0;
-}
-
 /* horizontal rule */
 hr {
   margin: 16px 0;
@@ -221,14 +207,20 @@ hr {
   border-top: 1px solid #eee;
 }
 
+/* 列表 */
+li > ol,
+li > ul {
+  margin: 0 0;
+}
+
 li p.first {
   display: inline-block;
 }
 
-/* ul,
+ul,
 ol {
-    padding-left: 30px;
-} */
+  padding-left: 2rem;
+}
 
 ul:first-child,
 ol:first-child {
@@ -239,6 +231,17 @@ ul:last-child,
 ol:last-child {
   margin-bottom: 0;
 }
+
+#write ol li,
+ul li {
+  padding-left: 0.1rem;
+}
+
+/* 无序列表，显示为空心圆 */
+ul {
+  list-style-type: circle;
+}
+
 
 /* 引用 */
 blockquote {
@@ -302,7 +305,6 @@ table tr td:last-child {
 /* 粗体 */
 #write strong {
   padding: 0 2px;
-  /* color: var(--purple-1); */
   color: var(--purple-1);
   font-weight: 600;
   font-family: var(--em-font);
@@ -634,11 +636,11 @@ pre {
   display: block;
   position: absolute;
   border: 1px solid #b4b4b4;
-  border-radius: 0.25rem;
-  margin-top: 0.1rem;
-  margin-left: -1.8rem;
-  height: 1.2rem;
-  width: 1.2rem;
+  border-radius: 0.2rem;
+  margin-top: 0.3rem;
+  /* margin-left: -1.8rem; */
+  height: 1rem;
+  width: 1rem;
   transition: background 0.3s;
 }
 
