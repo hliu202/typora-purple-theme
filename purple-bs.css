@@ -1,0 +1,10 @@
+@import "./purple.css";
+
+/* 粗体 */
+#write strong {
+  padding: 0 2px;
+  /* color: var(--purple-1); */
+  color: var(--black-color);
+  font-weight: 600;
+  font-family: var(--em-font);
+}

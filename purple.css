@@ -11,7 +11,7 @@
   --active-file-border-color: #8163bd;
 
   --title-color: #6c549c;
-  --strong-color: #3b3b3b;
+  --black-color: #3b3b3b;
   --font-sans-serif: "Ubuntu", "Source Sans Pro", sans-serif !important;
   --font-monospace: "Fira Code", "Roboto Mono", monospace !important;
 
@@ -303,7 +303,7 @@ table tr td:last-child {
 #write strong {
   padding: 0 2px;
   /* color: var(--purple-1); */
-  color: var(--strong-color);
+  color: var(--purple-1);
   font-weight: 600;
   font-family: var(--em-font);
 }
