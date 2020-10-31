@@ -4,7 +4,7 @@
   --search-select-bg-color: #8163bd;
 
   /* side bar */
-  --side-bar-bg-color: rgb(255, 255, 255);
+  --side-bar-bg-color: #F7F7FB;
   --active-file-text-color: #8163bd;
   --active-file-bg-color: #e9e4f0;
   --item-hover-bg-color: #e9e4f0;
@@ -238,10 +238,9 @@ ul li {
 }
 
 /* 无序列表，显示为空心圆 */
-ul {
+/* ul {
   list-style-type: circle;
-}
-
+} */
 
 /* 引用 */
 blockquote {
