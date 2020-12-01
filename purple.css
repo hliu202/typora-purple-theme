@@ -313,8 +313,8 @@ table tr td:last-child {
 #write em {
   padding: 0 5px 0 2px;
   font-family: var(--em-font);
-  /* font-style: normal;
-  color: #4abdeb; */
+  /* font-style: normal; */
+  color: #4abdeb;
 }
 
 /* inline code */
