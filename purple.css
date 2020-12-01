@@ -4,7 +4,7 @@
   --search-select-bg-color: #8163bd;
 
   /* side bar */
-  --side-bar-bg-color: #F7F7FB;
+  --side-bar-bg-color: #f7f7fb;
   --active-file-text-color: #8163bd;
   --active-file-bg-color: #e9e4f0;
   --item-hover-bg-color: #e9e4f0;
@@ -337,12 +337,13 @@ tt {
   color: var(--purple-4);
 }
 
-/* heighlight. */
+/* highlight. */
 #write mark {
-  background-color: rgba(251, 211, 234, 0.6);
+  background-color: rgb(255, 217, 255);
   border-radius: 2px;
   padding: 2px 4px;
   margin: 0 2px;
+  color: var(--text-color)
 }
 
 #write del {
