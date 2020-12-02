@@ -55,9 +55,9 @@
 
   --shadow: var(--purple-light-3) 0px 5px 10px;
 
-  --borders: #e7eaed /* #E6ECF1 */ /* var(--purple-light-4) */;
-  --table-border-color: #e7eaed /* #E6ECF1 */ /* var(--purple-light-4) */;
-  --boxes: var(--purple-light-2);
+  --fence-border: #e7eaed;
+  --table-border: #aaa;
+  --boxes: rgba(10, 10, 10, 0.05);
 }
 
 html {
@@ -273,7 +273,7 @@ table {
 
 table tr {
   border-top: none;
-  border-bottom: 1px solid var(--borders);
+  border-bottom: 1px solid var(--table-border);
   margin: 0;
   padding: 0;
 }
@@ -285,7 +285,7 @@ table tr.md-end-block {
 table tr th {
   font-weight: bold;
   border: none;
-  border-bottom: solid 2px var(--table-border-color);
+  border-bottom: solid 2px var(--table-border);
   margin: 0;
   padding: 6px 13px;
   transition-duration: 0.3s;
@@ -487,7 +487,7 @@ pre {
 
 /* border and bg */
 .md-fences {
-  border: 1px solid var(--borders);
+  border: 1px solid var(--fence-border);
   border-radius: 5px;
   background: #fdfdfd !important;
 }
