@@ -727,12 +727,12 @@ pre {
 
 .file-tree-node.active > .file-node-background {
   background-color: var(--purple-light-5);
-  font-weight: 500;
+  font-weight: normal;
 }
 
 .file-tree-node.active > .file-node-content {
   color: var(--active-file-text-color);
-  font-weight: 500;
+  font-weight: normal;
 }
 
 .file-node-content {
