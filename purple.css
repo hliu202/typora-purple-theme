@@ -56,7 +56,7 @@
 
   --borders:  #e7eaed /* #E6ECF1 */ /* var(--purple-light-4) */; 
   --table-border-color:   #e7eaed /* #E6ECF1 */ /* var(--purple-light-4) */;
-  --boxes: var(--purple-light-1);
+  --boxes: var(--purple-light-2);
 }
 
 html {
