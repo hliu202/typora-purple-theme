@@ -22,6 +22,7 @@ h2 {
 /* 粗体 */
 #write strong {
   color: var(--text-color);
+  font-weight: bold;
 }
 
 /* inline code */
