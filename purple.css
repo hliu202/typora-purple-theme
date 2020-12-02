@@ -127,7 +127,7 @@ h6 {
   margin-top: 1rem;
   margin-bottom: 0.5rem;
   /* font-weight: bold; */
-  font-weight: 400;
+  font-weight: normal;
   line-height: 1.4;
   cursor: text;
   color: var(--title-color);
@@ -717,7 +717,7 @@ pre {
 }
 
 .file-list-item-summary {
-  font-weight: 400;
+  font-weight: normal;
 }
 
 .file-list-item.active {
@@ -743,7 +743,7 @@ pre {
   border-bottom: none;
 }
 .sidebar-tab.active {
-  font-weight: 400;
+  font-weight: normal;
 }
 .info-panel-tab-border {
   color: var(--purple-1);
