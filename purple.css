@@ -50,8 +50,13 @@
   --purple-light-4: rgba(129, 99, 189, 0.3);
   --purple-light-5: #e9e4f0;
   --purple-light-6: rgba(129, 99, 189, 0.7);
+  --purple-light-7: rgba(129, 99, 189, 0.3);
 
   --shadow: var(--purple-light-3) 0px 5px 10px;
+
+  --borders: var(--purple-light-4);
+  --table-border-color: var(--purple-light-4);
+  --boxes: var(--purple-light-1);
 }
 
 html {
@@ -250,55 +255,60 @@ blockquote {
   padding: 10px 15px;
   color: #777;
   background-color: var(--purple-light-1);
-  box-shadow: var(--purple-light-2);
+  /* box-shadow: var(--purple-light-2); */
   font-family: var(--quota-font);
 }
 
 /* 表格 */
+
 table {
-  padding: 0;
-  word-break: initial;
+    font-size: .95rem;
+    padding: 0;
+    margin: 0;
+    word-break: initial;
 }
 
 table tr {
-  border-top: 1px solid #dfe2e5;
-  margin: 0;
-  padding: 0;
+    border-top: 1px solid var(--borders);
+    border-bottom: 1px solid var(--borders);
+    margin: 0;
+    padding: 0;
 }
 
-/* 表格 背景色 */
-table tr:nth-child(2n),
-thead {
-  background-color: var(--purple-light-1);
-}
-#write table thead th {
-  background-color: var(--purple-light-2);
+table tr.md-end-block {
+    border-top: none;
 }
 
 table tr th {
-  font-weight: 500;
-  border: 1px solid #dfe2e5;
-  border-bottom: 0;
-  text-align: left;
-  margin: 0;
-  padding: 6px 13px;
+    font-weight: bold;
+    border: none;
+    border-bottom: solid 2px var(--table-border-color);
+    margin: 0;
+    padding: 6px 13px;
+    transition-duration: 0.3s;
+    transition-property: background-color;
 }
 
 table tr td {
-  border: 1px solid #dfe2e5;
-  text-align: left;
-  margin: 0;
-  padding: 6px 13px;
+    border: none;
+    margin: 0;
+    padding: 6px 13px;
+    transition-duration: 0.3s;
+    transition-property: background-color;
+}
+
+#write table tr td:hover, #write table tr th:hover {
+    background-color: var(--boxes);
 }
 
 table tr th:first-child,
 table tr td:first-child {
-  margin-top: 0;
+    margin-top: 0;
 }
 
 table tr th:last-child,
 table tr td:last-child {
-  margin-bottom: 0;
+    margin-bottom: 0;
 }
 
 /* 粗体 */
