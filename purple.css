@@ -11,7 +11,8 @@
   --active-file-border-color: #8163bd;
 
   --title-color: #6c549c;
-  --text-color: #34495e;
+  /* --blur-text-color: #c8c8c8; */
+  --text-color:/*  #5e676d */ #333333 /* #2c3e50 */ /* #34495e */;
   --font-sans-serif: "Ubuntu", "Source Sans Pro", sans-serif !important;
   --font-monospace: "Fira Code", "Roboto Mono", monospace !important;
 
@@ -54,8 +55,8 @@
 
   --shadow: var(--purple-light-3) 0px 5px 10px;
 
-  --borders:  #e7eaed /* #E6ECF1 */ /* var(--purple-light-4) */; 
-  --table-border-color:   #e7eaed /* #E6ECF1 */ /* var(--purple-light-4) */;
+  --borders: #e7eaed /* #E6ECF1 */ /* var(--purple-light-4) */;
+  --table-border-color: #e7eaed /* #E6ECF1 */ /* var(--purple-light-4) */;
   --boxes: var(--purple-light-2);
 }
 
@@ -249,66 +250,64 @@ ul li {
 
 /* 引用 */
 blockquote {
-  /* margin-left: 1rem; */
   border-left: 0.2rem solid var(--purple-light-4);
-  /* border-radius: 0.4rem; */
   padding: 10px 15px;
   color: #777;
   background-color: var(--purple-light-1);
-  /* box-shadow: var(--purple-light-2); */
   font-family: var(--quota-font);
 }
 
 /* 表格 */
 
 table {
-    font-size: .95rem;
-    padding: 0;
-    margin: 0;
-    word-break: initial;
+  font-size: 0.95rem;
+  padding: 0;
+  margin: 0;
+  word-break: initial;
 }
 
 table tr {
-    border-top: none;
-    border-bottom: 1px solid var(--borders);
-    margin: 0;
-    padding: 0;
+  border-top: none;
+  border-bottom: 1px solid var(--borders);
+  margin: 0;
+  padding: 0;
 }
 
 table tr.md-end-block {
-    border-top: none;
+  border-top: none;
 }
 
 table tr th {
-    font-weight: bold;
-    border: none;
-    border-bottom: solid 2px var(--table-border-color);
-    margin: 0;
-    padding: 6px 13px;
-    transition-duration: 0.3s;
-    transition-property: background-color;
+  font-weight: bold;
+  border: none;
+  border-bottom: solid 2px var(--table-border-color);
+  margin: 0;
+  padding: 6px 13px;
+  transition-duration: 0.3s;
+  transition-property: background-color;
 }
 
 table tr td {
-    border: none;
-    margin: 0;
-    padding: 6px 13px;
-    transition-duration: 0.3s;
-    transition-property: background-color;
+  border: none;
+  margin: 0;
+  padding: 6px 13px;
+  transition-duration: 0.3s;
+  transition-property: background-color;
 }
 
-#write table tr td:hover, #write table tr th:hover {
-    background-color: var(--boxes);
+#write table tr td:hover,
+#write table tr th:hover {
+  background-color: var(--boxes);
 }
 
 table tr th:first-child,
 table tr td:first-child {
-    margin-top: 0;
+  margin-top: 0;
 }
 
 table tr th:last-child,
 table tr td:last-child {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 /* 粗体 */
@@ -335,7 +334,7 @@ tt {
   font-family: var(--monospace);
   font-size: 0.92rem;
   color: var(--purple-3);
-  background-color: rgba(99, 99, 172, 0.05);
+  background-color: var(--purple-light-1);
 }
 
 tt {
@@ -353,7 +352,7 @@ tt {
   border-radius: 2px;
   padding: 2px 4px;
   margin: 0 2px;
-  color: var(--text-color)
+  color: var(--text-color);
 }
 
 #write del {

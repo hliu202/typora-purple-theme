@@ -1,9 +1,0 @@
-@import "./purple.css";
-
-/* 粗体 */
-#write strong {
-  padding: 0 2px;
-  color: var(--text-color);
-  font-weight: bold;
-  font-family: var(--em-font);
-}

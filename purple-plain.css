@@ -1,0 +1,66 @@
+@import "./purple.css";
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+  color: var(--text-color);
+}
+
+h1:after {
+  border-bottom: 2px solid var(--text-color);
+}
+
+h2 {
+  border-left: 9px solid var(--text-color);
+  border-bottom: 1px solid var(--text-color);
+}
+
+/* 粗体 */
+#write strong {
+  color: var(--text-color);
+}
+
+/* inline code */
+#write code,
+tt {
+  color: var(--text-color);
+  background-color: var(--purple-light-2);
+}
+
+#write .md-footnote {
+  color: var(--text-color);
+  background-color: var(--purple-light-2);
+}
+
+/* 斜体 */
+#write em {
+  color: var(--text-color);
+}
+
+/* 引用 */
+blockquote {
+  border-left: 0.2rem solid rgba(7, 7, 7, 0.3);
+}
+
+/* 链接 */
+a {
+  color: var(--text-color);
+  text-decoration: none;
+}
+#write a {
+  border-bottom: 1px solid var(--text-color);
+  color: var(--text-color);
+  text-decoration: none;
+}
+#write a:hover {
+  border-bottom: 1px solid #777;
+  color: #777;
+  text-decoration: none;
+}
+.md-content {
+  color: #777;
+}
