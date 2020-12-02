@@ -103,9 +103,14 @@ a {
   color: var(--purple-1);
   text-decoration: none;
 }
-#write a:hover {
+#write a {
   border-bottom: 1px solid var(--purple-1);
   color: var(--purple-1);
+  text-decoration: none;
+}
+#write a:hover {
+  border-bottom: 1px solid var(--purple-light-6);
+  color: var(--purple-light-6);
   text-decoration: none;
 }
 .md-content {
@@ -314,7 +319,7 @@ table tr td:last-child {
 #write strong {
   padding: 0 2px;
   color: var(--purple-1);
-  font-weight: 600;
+  font-weight: normal;
   font-family: var(--em-font);
 }
 
