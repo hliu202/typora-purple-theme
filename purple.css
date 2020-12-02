@@ -54,8 +54,8 @@
 
   --shadow: var(--purple-light-3) 0px 5px 10px;
 
-  --borders: var(--purple-light-4);
-  --table-border-color: var(--purple-light-4);
+  --borders:  #e7eaed /* #E6ECF1 */ /* var(--purple-light-4) */; 
+  --table-border-color:   #e7eaed /* #E6ECF1 */ /* var(--purple-light-4) */;
   --boxes: var(--purple-light-1);
 }
 
@@ -269,7 +269,7 @@ table {
 }
 
 table tr {
-    border-top: 1px solid var(--borders);
+    border-top: none;
     border-bottom: 1px solid var(--borders);
     margin: 0;
     padding: 0;
@@ -483,7 +483,7 @@ pre {
 
 /* border and bg */
 .md-fences {
-  border: 1px solid #e7eaed;
+  border: 1px solid var(--borders);
   border-radius: 5px;
   background: #fdfdfd !important;
 }
