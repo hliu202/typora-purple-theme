@@ -7,11 +7,11 @@ tt {
   border-radius: 2px;
   font-family: var(--font-monospace);
   font-size: 0.92rem;
-  color: var(--purple-3);
+  color: var(--purple-4);
   background-color: rgba(99, 99, 172, 0.05);
 }
 
 #write .md-footnote {
   background-color: #f8f8f8;
-  color: var(--purple-3);
+  color: var(--purple-4);
 }

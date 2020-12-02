@@ -324,7 +324,7 @@ tt {
   border-radius: 2px;
   font-family: var(--monospace);
   font-size: 0.92rem;
-  color: var(--purple-4);
+  color: var(--purple-3);
   background-color: rgba(99, 99, 172, 0.05);
 }
 
@@ -334,7 +334,7 @@ tt {
 
 #write .md-footnote {
   background-color: #f8f8f8;
-  color: var(--purple-4);
+  color: var(--purple-3);
 }
 
 /* highlight. */
