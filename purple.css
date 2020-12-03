@@ -83,7 +83,7 @@ body {
   font-family: var(--base-font);
   /* max-width: 914px; */
   margin: 0 auto;
-  padding: 4rem;
+  padding: 1rem 4rem;
   padding-bottom: 100px;
 }
 
