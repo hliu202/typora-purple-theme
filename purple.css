@@ -548,7 +548,7 @@ pre {
 }
 
 .cm-s-inner span.cm-variable {
-  color: #3a3a3a;
+  color: #01a252;
 }
 
 .cm-s-inner span.cm-variable-2 {
@@ -556,8 +556,9 @@ pre {
 }
 
 .cm-s-inner span.cm-def {
-  /* color: #e8bbd0; */
-  color: #e2287f;
+/*   color: #e8bbd0;
+  color: #e2287f; */
+  color: var(--text-color)
 }
 
 .cm-s-inner span.cm-operator {
