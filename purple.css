@@ -13,6 +13,7 @@
   --title-color: #6c549c;
   /* --blur-text-color: #c8c8c8; */
   --text-color:/*  #5e676d */ #333333 /* #2c3e50 */ /* #34495e */;
+  --light-text-color: #414141;
   --font-sans-serif: "Ubuntu", "Source Sans Pro", sans-serif !important;
   --font-monospace: "Fira Code", "Roboto Mono", monospace !important;
 
@@ -56,7 +57,7 @@
   --shadow: var(--purple-light-3) 0px 5px 10px;
 
   --fence-border: #e7eaed;
-  --table-border: #aaa;
+  --table-border: rgb(143, 143, 143);
   --boxes: rgba(10, 10, 10, 0.05);
 }
 
@@ -257,7 +258,7 @@ ul li {
 blockquote {
   border-left: 0.2rem solid var(--purple-light-4);
   padding: 10px 15px;
-  color: #777;
+  color: var(--light-text-color);
   background-color: var(--purple-light-1);
   font-family: var(--quota-font);
 }
