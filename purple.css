@@ -56,9 +56,10 @@
 
   --shadow: var(--purple-light-3) 0px 5px 10px;
 
-  --fence-border: #e7eaed;
-  --table-border: rgb(143, 143, 143);
-  --boxes: rgba(10, 10, 10, 0.05);
+  --border: #eee;
+  --fence-border: var(--border);
+  --table-border: #ddd;
+  --boxes: var(--purple-light-1);
 }
 
 html {
@@ -216,7 +217,7 @@ table {
 hr {
   margin: 16px 0;
   border: 0;
-  border-top: 1px solid #eee;
+  border-top: 2px solid var(--border);
 }
 
 /* 列表 */
@@ -266,7 +267,7 @@ blockquote {
 /* 表格 */
 
 table {
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   padding: 0;
   margin: 0;
   word-break: initial;
