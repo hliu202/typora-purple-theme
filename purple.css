@@ -322,9 +322,9 @@ table tr:nth-child(2n),
 thead {
   background-color: var(--purple-light-1);
 }
-/* #write table thead th {
+#write table thead th {
   background-color: var(--purple-light-1);
-} */
+}
 
 /* 粗体 */
 #write strong {
