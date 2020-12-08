@@ -59,7 +59,7 @@
   --border: #eee;
   --fence-border: var(--border);
   --table-border: #ddd;
-  --boxes: var(--purple-light-1);
+  --boxes: var(--purple-light-2);
 }
 
 html {
@@ -316,6 +316,15 @@ table tr th:last-child,
 table tr td:last-child {
   margin-bottom: 0;
 }
+
+/* 表格 背景色 */
+table tr:nth-child(2n),
+thead {
+  background-color: var(--purple-light-1);
+}
+/* #write table thead th {
+  background-color: var(--purple-light-1);
+} */
 
 /* 粗体 */
 #write strong {
