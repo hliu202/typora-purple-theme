@@ -56,7 +56,7 @@
   --border: #eee;
   --fence-border: var(--border);
   --table-border: #ddd;
-  --boxes: var(--purple-light-2);
+  --boxes: var(--purple-light-3);
 }
 
 html {
@@ -301,7 +301,7 @@ table tr td {
 
 #write table tr td:hover,
 #write table tr th:hover {
-  background-color: var(--boxes);
+  background-color: var(--boxes) !important;
 }
 
 table tr th:first-child,
