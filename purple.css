@@ -11,7 +11,7 @@
   --active-file-border-color: #8163bd;
 
   --title-color: #6c549c;
-  --text-color : #333333;
+  --text-color: #333333;
   --light-text-color: #414141;
 
   --base-font: -apple-system, "Noto Sans", "Helvetica Neue", Helvetica,
@@ -37,11 +37,11 @@
     DFKai-SB, "TW\-Kai", serif;
   --monospace: "Cascadia code", "Sarasa Term SC", Monaco, "Deja Vu Sans Mono",
     Consolas, "Lucida Console", "Andale Mono", "Fira Code", "Roboto Mono",
-    Courier, "Fira Code", "Roboto Mono", monospace !important;;
+    Courier, "Fira Code", "Roboto Mono", monospace !important;
 
-  --purple-1: #8163bd;
-  --purple-2: #79589f;
-  --purple-3: #fd5eb8;
+  --link-color: #9c87c7;
+  --bold-color: #745fb5/* #8163bd */;
+  --code-color: #FF79C6;
   --purple-4: #bb60d5;
   --purple-light-1: rgba(99, 99, 172, 0.05);
   --purple-light-2: rgba(99, 99, 172, 0.1);
@@ -99,21 +99,21 @@ body > *:last-child {
 }
 
 a {
-  color: var(--purple-1);
+  color: var(--link-color);
   text-decoration: none;
 }
 #write a {
-  border-bottom: 1px solid var(--purple-1);
-  color: var(--purple-1);
+  border-bottom: 1px solid var(--link-color);
+  color: var(--link-color);
   text-decoration: none;
 }
-#write a:hover {
+/* #write a:hover {
   border-bottom: 1px solid var(--purple-light-6);
   color: var(--purple-light-6);
   text-decoration: none;
-}
+} */
 .md-content {
-  color: var(--purple-light-6);
+  color: var(--link-color);
 }
 
 h1,
@@ -326,15 +326,15 @@ thead {
 /* 粗体 */
 #write strong {
   padding: 0 2px;
-  color: var(--purple-1);
-  font-weight: bold;
+  color: var(--bold-color);
+  font-weight: normal;
   font-family: var(--em-font);
 }
 
 /* 斜体 */
 #write em {
   padding: 0 5px 0 2px;
-  font-family: var(--em-font);
+  font-family: var(--base-font);
   /* font-style: normal; */
   color: #4abdeb;
 }
@@ -346,7 +346,7 @@ tt {
   border-radius: 2px;
   font-family: var(--monospace);
   font-size: 0.92rem;
-  color: var(--purple-3);
+  color: var(--code-color);
   background-color: var(--purple-light-1);
 }
 
@@ -356,7 +356,7 @@ tt {
 
 #write .md-footnote {
   background-color: #f8f8f8;
-  color: var(--purple-3);
+  color: var(--code-color);
 }
 
 /* highlight. */
@@ -563,9 +563,9 @@ pre {
 }
 
 .cm-s-inner span.cm-def {
-/*   color: #e8bbd0;
+  /*   color: #e8bbd0;
   color: #e2287f; */
-  color: var(--text-color)
+  color: var(--text-color);
 }
 
 .cm-s-inner span.cm-operator {
@@ -755,7 +755,7 @@ pre {
   font-weight: normal;
 }
 .info-panel-tab-border {
-  color: var(--purple-1);
+  color: var(--link-color);
 }
 
 .sidebar-content-content {
@@ -775,9 +775,9 @@ element.style {
   width: calc(100% - 18px);
 }
 #file-library-search-input:focus {
-  border-color: var(--purple-1);
+  border-color: var(--link-color);
 }
 .code-tooltip .ty-input:focus,
 input:focus {
-  border-color: var(--purple-1);
+  border-color: var(--link-color);
 }
