@@ -284,7 +284,7 @@ table tr.md-end-block {
 table tr th {
   font-weight: bold;
   border: none;
-  border-bottom: solid 2px var(--table-border);
+  border-bottom: solid 1px var(--table-border);
   margin: 0;
   padding: 6px 13px;
   transition-duration: 0.3s;
