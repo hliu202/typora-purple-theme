@@ -40,8 +40,8 @@
     Courier, "Fira Code", "Roboto Mono", monospace !important;
 
   --link-color: #745fb5;
-  --bold-color: #745fb5/* #8163bd */;
-  --code-color: #FF79C6;
+  --bold-color: #745fb5 /* #8163bd */;
+  --code-color: #ff79c6;
   --purple-4: #bb60d5;
   --purple-light-1: rgba(99, 99, 172, 0.05);
   --purple-light-2: rgba(99, 99, 172, 0.1);
@@ -326,7 +326,7 @@ thead {
 /* 粗体 */
 #write strong {
   padding: 0 2px;
-  color: var(--text-color);
+  /* color: var(--bold-color); */
   font-weight: bold;
   font-family: var(--em-font);
 }
@@ -336,7 +336,7 @@ thead {
   padding: 0 5px 0 2px;
   font-family: var(--base-font);
   /* font-style: normal; */
-  color: #4abdeb;
+  /* color: #4abdeb; */
 }
 
 /* inline code */
