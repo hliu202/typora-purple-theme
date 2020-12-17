@@ -39,7 +39,7 @@
     Consolas, "Lucida Console", "Andale Mono", "Fira Code", "Roboto Mono",
     Courier, "Fira Code", "Roboto Mono", monospace !important;
 
-  --link-color: #9487bb;
+  --link-color: #745fb5;
   --bold-color: #745fb5/* #8163bd */;
   --code-color: #FF79C6;
   --purple-4: #bb60d5;
@@ -107,13 +107,13 @@ a {
   color: var(--link-color);
   text-decoration: none;
 }
-/* #write a:hover {
+#write a:hover {
   border-bottom: 1px solid var(--purple-light-6);
   color: var(--purple-light-6);
   text-decoration: none;
-} */
+}
 .md-content {
-  color: var(--link-color);
+  color: var(--purple-light-6);
 }
 
 h1,
@@ -326,8 +326,8 @@ thead {
 /* 粗体 */
 #write strong {
   padding: 0 2px;
-  color: var(--bold-color);
-  font-weight: normal;
+  color: var(--text-color);
+  font-weight: bold;
   font-family: var(--em-font);
 }
 
