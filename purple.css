@@ -14,30 +14,20 @@
   --text-color: #333333;
   --light-text-color: #414141;
 
-  --base-font: -apple-system, "Microsoft YaHei", "Noto Sans", "Helvetica Neue", Helvetica,
-    "Nimbus Sans L", Arial, "Liberation Sans", "Noto Sans CJK SC", "PingFang SC",
-    "Hiragino Sans GB", "Source Han Sans SC", "Source Han Sans CN",
-     "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti",
-    SimHei, "WenQuanYi Zen Hei Sharp", "Ubuntu", "Source Sans Pro", sans-serif;
-  --title-font: "EB Garamond", Georgia, "Nimbus Roman No9 L",
-    "Noto Serif CJK SC", "Songti SC", "Source Han Serif SC",
+  --base-font: -apple-system, Ubuntu, "Microsoft YaHei", "Noto Sans",
+    "Helvetica Neue", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans",
+    "Noto Sans CJK SC", "PingFang SC", "Hiragino Sans GB", "Source Han Sans SC",
+    "Source Han Sans CN", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti",
+    SimHei, "WenQuanYi Zen Hei Sharp", "Source Sans Pro", sans-serif;
+  --title-font: "Noto Serif CJK SC", "EB Garamond", Georgia,
+    "Nimbus Roman No9 L", "Songti SC", "Source Han Serif SC",
     "Source Han Serif CN", STSong, "AR PL New Sung", "AR PL SungtiL GB", NSimSun,
     SimSun, "TW\-Sung", "WenQuanYi Bitmap Song", "AR PL UMing CN",
     "AR PL UMing HK", "AR PL UMing TW", "AR PL UMing TW MBE", PMingLiU, MingLiU,
     "Ubuntu", "Source Sans Pro", serif;
-  --em-font: "EB Garamond", Georgia, "Nimbus Roman No9 L",
-    "Noto Serif CJK SC" ， "Songti SC", "Source Han Serif SC",
-    "Source Han Serif CN", STSong, "AR PL New Sung", "AR PL SungtiL GB", NSimSun,
-    SimSun, "TW\-Sung", "WenQuanYi Bitmap Song", "AR PL UMing CN",
-    "AR PL UMing HK", "AR PL UMing TW", "AR PL UMing TW MBE", PMingLiU, MingLiU,
-    "Ubuntu", "Source Sans Pro", serif;
-  --quota-font: "EB Garamond", Baskerville, Georgia, "Liberation Serif",
-    "TW-Kai", "Kaiti SC", STKaiti, "AR PL UKai CN", "AR PL UKai HK",
-    "AR PL UKai TW", "AR PL UKai TW MBE", "AR PL KaitiM GB", KaiTi, KaiTi_GB2312,
-    DFKai-SB, "TW\-Kai", serif;
-  --monospace: "Cascadia code", "Sarasa Term SC", Monaco, "Deja Vu Sans Mono",
-    Consolas, "Lucida Console", "Andale Mono", "Fira Code", "Roboto Mono",
-    Courier, "Fira Code", "Roboto Mono", monospace !important;
+  --monospace: "JetBrains Mono", "Fira Code", "Cascadia Code", "Sarasa Term SC",
+    Monaco, "Deja Vu Sans Mono", Consolas, "Lucida Console", "Andale Mono",
+    "Roboto Mono", Courier, Monospace !important;
 
   --link-color: #745fb5;
   --bold-color: #745fb5 /* #8163bd */;
@@ -258,7 +248,7 @@ blockquote {
   padding: 10px 15px;
   color: var(--light-text-color);
   background-color: var(--purple-light-1);
-  font-family: var(--quota-font);
+  font-family: var(--title-font);
 }
 
 /* 表格 */
@@ -328,13 +318,11 @@ thead {
   padding: 0 2px;
   /* color: var(--bold-color); */
   font-weight: bold;
-  font-family: var(--base-font);
 }
 
 /* 斜体 */
 #write em {
   padding: 0 5px 0 2px;
-  font-family: var(--base-font);
   /* font-style: normal; */
   /* color: #4abdeb; */
 }
