@@ -12,7 +12,7 @@
 
   --title-color: #6c549c;
   --text-color: #333333;
-  --light-text-color: #414141;
+  --light-text-color: #666666;
 
   --base-font: -apple-system, Ubuntu, "Microsoft YaHei", "Noto Sans",
     "Helvetica Neue", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans",
@@ -248,7 +248,7 @@ blockquote {
   padding: 10px 15px;
   color: var(--light-text-color);
   background-color: var(--purple-light-1);
-  font-family: var(--title-font);
+  font-family: var(--base-font);
 }
 
 /* 表格 */
