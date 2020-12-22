@@ -335,7 +335,7 @@ thead {
 #write code,
 tt {
   padding: 2px 4px;
-  border-radius: 2px;
+  border-radius: 0.3rem;
   font-family: var(--monospace);
   font-size: 0.92rem;
   color: var(--code-color);
