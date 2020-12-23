@@ -46,7 +46,7 @@
   --border: #eee;
   --fence-border: var(--border);
   --table-border: #ddd;
-  --boxes: var(--purple-light-2);
+  --boxes: #f0eef5;
 }
 
 html {
@@ -261,7 +261,7 @@ table {
 }
 
 table tr {
-  border-top: none;
+  border-top: 1px solid var(--table-border);
   border-bottom: 1px solid var(--table-border);
   margin: 0;
   padding: 0;
@@ -307,10 +307,14 @@ table tr td:last-child {
 /* 表格 背景色 */
 table tr:nth-child(2n),
 thead {
-  background-color: var(--purple-light-1);
+  background-color: #f7f7fb;
+}
+table tr:nth-child(2n + 1),
+thead {
+  background-color: #ffffff;
 }
 #write table thead th {
-  background-color: var(--purple-light-1);
+  background-color: #f0eef5;
 }
 
 /* 粗体 */
@@ -412,22 +416,14 @@ p .md-image:only-child {
   color: inherit;
 }
 
-/* 默认有阴影 */
 #write img {
-  box-shadow: var(--shadow);
-  border-radius: 5px;
   max-width: 914px;
 }
 
-/* 写![no-shadow...]() 使图片去掉阴影 */
-img[alt|="no-shadow"] {
-  box-shadow: none !important;
-}
-
-/* 写![normal...]() 使图片去掉所有效果 */
-img[alt|="normal"] {
-  margin: 0 !important;
-  box-shadow: none !important;
+/* 写![shadow-...]() 显示图片阴影 */
+img[alt|="shadow"] {
+  box-shadow: var(--shadow);
+  border-radius: 0.4rem;
 }
 
 #write a.md-toc-inner {
