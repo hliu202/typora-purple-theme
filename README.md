@@ -2,7 +2,7 @@
 
 `purple.css`是紫色调为主的彩色版本：
 
-![purple](./ScreenShots/1.png)
+![purple.css](./ScreenShots/1.png)
 
 `purple-plain.css`是黑白配色：
 
@@ -16,9 +16,9 @@
 
 ## 更多效果：
 
-![purple](./ScreenShots/3.png)
+![3](./ScreenShots/3.png)
 
-![purple](./ScreenShots/4.png)
+![4](./ScreenShots/4.png)
 
-![purple](./ScreenShots/5.png)
+![5](./ScreenShots/5.png)
 
