@@ -1,4 +1,6 @@
-`purple.css`是彩色版本：
+## 主题介绍
+
+`purple.css`是紫色调为主的彩色版本：
 
 ![purple](./ScreenShots/1.png)
 
@@ -6,7 +8,13 @@
 
 ![purple-plain.css](./ScreenShots/2.png)
 
-更多效果：
+## 关于字体
+
+1. 标题使用衬线(Serif)字体，比如：Noto Serif
+2. 正文使用非衬线(Sans)字体，比如：Mac/Ubuntu/Windows 系统字体，[Helvetica Neue](https://freefontsdownload.net/free-helveticaneue-font-74318.htm)等
+3. 代码使用等宽字体，比如：[JetBrains Mono](https://www.jetbrains.com/lp/mono/)
+
+## 更多效果：
 
 ![purple](./ScreenShots/3.png)
 
