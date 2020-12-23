@@ -8,8 +8,9 @@
 > `Simple, clean`,  a **[purple]()** theme for Typora
 
 ## Introduction
-
 [Typora](https://www.typora.io/) is a markdown editor and reader that supports real-time preview. It supports `Windows`, `macOS`, `Linux` platforms. Typora is a qualified Markdown editor that supports images, lists, tables, codes, formulas, catalogs, etc. At the same time, typora also supports (one-click) dynamic preview function, so that everything becomes so clean and pure. And there are various theme templates.
+
+
 
 ## Install
 
@@ -18,11 +19,5 @@
 3. Put `purple.css` into the opened folder, make sure your css files are directly under that directory.
 4. Close and reopen Typora and select **Theme** → **Purple** from the menu bar.
 
-
-
-
-
-
-
-> **Thanks**: [typora-vue-theme](https://github.com/blinkfox/typora-vue-theme), [typora-theme-ursine](https://github.com/aCluelessDanny/typora-theme-ursine), [theigrams/My-typora-themes](https://github.com/theigrams/My-typora-themes)
+> **Thanks**: [typora-vue-theme](https://github.com/blinkfox/typora-vue-theme), [typora-theme-ursine](https://github.com/aCluelessDanny/typora-theme-ursine), [theigrams/My-typora-themes](https://github.com/theigrams/My-typora-themes), [typora-theme-autumnus](https://github.com/Soanguy/typora-theme-autumnus)
 

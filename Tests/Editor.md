@@ -27,7 +27,7 @@ This is an H2
 
 ###  Links
 
-[普通链接](http://localhost/)
+[普通链接](http://localhost/) [*斜体链接*](https://github.com/Soanguy/typora-theme-autumnus) [**粗体链接**](https://github.com/Soanguy/typora-theme-autumnus)
 
 ### 脚注
 
@@ -50,7 +50,7 @@ function test(){
 	console.log("Hello world!");
 }
  
-(function(){
+function(){
     var box = function(){
         return box.fn.init();
     };

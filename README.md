@@ -1,7 +1,16 @@
-![shadow](ScreenShots/en/0.png)
+`purple.css`是彩色版本：
 
-![shadow](ScreenShots/en/1.png)
+![purple](./ScreenShots/1.png)
 
-![shadow](ScreenShots/en/2.png)
+`purple-plain.css`是黑白配色：
 
-> **Thanks**: [typora-vue-theme](https://github.com/blinkfox/typora-vue-theme), [typora-theme-ursine](https://github.com/aCluelessDanny/typora-theme-ursine), [theigrams/My-typora-themes](https://github.com/theigrams/My-typora-themes)
+![purple-plain.css](./ScreenShots/2.png)
+
+更多效果：
+
+![purple](./ScreenShots/3.png)
+
+![purple](./ScreenShots/4.png)
+
+![purple](./ScreenShots/5.png)
+
