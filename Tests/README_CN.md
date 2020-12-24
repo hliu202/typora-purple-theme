@@ -13,7 +13,7 @@
 
 ## 安装主题
 
-1. [下载](https://github.com/hliu202/typora-purple-theme)本主题中的`purple.css`文件；<img src="assets/e.jpg" width="200" align=right hspace="5" vspace="5"/>
+1. [下载](https://github.com/hliu202/typora-purple-theme)本主题中的`purple.css`文件；<img src="assets/e.jpg" width="240" align=right hspace="5" vspace="5"/>
 
 2. 打开 Typora，点击“**偏好设置**” => “**打开主题文件夹**”按钮，将弹出 Typora 的主题文件夹；
 
@@ -21,9 +21,8 @@
 
 4. 关闭并重新打开 Typora，从菜单栏中选择 “**主题**” => “**Purple**” 即可。
 
-   
 
 
 
-> **鸣谢**: [typora-vue-theme](https://github.com/blinkfox/typora-vue-theme), [typora-theme-ursine](https://github.com/aCluelessDanny/typora-theme-ursine), [theigrams/My-typora-themes](https://github.com/theigrams/My-typora-themes)
+> **鸣谢**: [typora-vue-theme](https://github.com/blinkfox/typora-vue-theme), [typora-theme-ursine](https://github.com/aCluelessDanny/typora-theme-ursine), [theigrams/My-typora-themes](https://github.com/theigrams/My-typora-themes), [typora-theme-autumnus](https://github.com/Soanguy/typora-theme-autumnus)
 

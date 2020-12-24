@@ -1,10 +1,10 @@
 ## 主题介绍
 
-`purple.css`是紫色调为主的彩色版本：
+[purple.css](purple.css) 是紫色调：
 
 ![purple.css](./ScreenShots/1.png)
 
-`purple-plain.css`是黑白配色：
+[purple-plain.css](purple-plain.css) 是 ~~黑长直~~ 黑色调
 
 ![purple-plain.css](./ScreenShots/2.png)
 
