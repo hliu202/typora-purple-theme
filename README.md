@@ -1,3 +1,5 @@
+[English](./README-en.md)
+
 ## 主题介绍
 
 [purple.css](purple.css) 是紫色调：
