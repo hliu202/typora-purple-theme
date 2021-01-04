@@ -255,66 +255,34 @@ blockquote {
 
 table {
   font-size: 0.9rem;
-  padding: 0;
-  margin: 0;
-  word-break: initial;
+  margin-bottom: 1.25rem
 }
-
-table tr {
-  border-top: 1px solid var(--table-border);
-  border-bottom: 1px solid var(--table-border);
-  margin: 0;
-  padding: 0;
+table th,
+table td {
+  padding: 8px;
+  line-height: 1.25rem;
+  vertical-align: middle;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
 }
-
-table tr.md-end-block {
-  border-top: none;
+table th {
+  font-weight: bold
 }
-
-table tr th {
-  font-weight: bold;
-  border: none;
-  border-bottom: solid 1px var(--table-border);
-  margin: 0;
-  padding: 6px 13px;
-  transition-duration: 0.3s;
-  transition-property: background-color;
-}
-
-table tr td {
-  border: none;
-  margin: 0;
-  padding: 6px 13px;
-  transition-duration: 0.3s;
-  transition-property: background-color;
-}
-
-#write table tr td:hover,
-#write table tr th:hover {
-  background-color: var(--boxes);
-}
-
-table tr th:first-child,
-table tr td:first-child {
-  margin-top: 0;
-}
-
-table tr th:last-child,
-table tr td:last-child {
-  margin-bottom: 0;
+table thead th {
+  vertical-align: middle
 }
 
 /* 表格 背景色 */
 table tr:nth-child(2n),
 thead {
-  background-color: #f7f7fb;
+  background-color: #f7f7f7;
 }
 table tr:nth-child(2n + 1),
 thead {
   background-color: #ffffff;
 }
 #write table thead th {
-  background-color: #f0eef5;
+  background-color: #eeeeee;
 }
 
 /* 粗体 */
