@@ -247,7 +247,7 @@ blockquote {
   border-left: 0.2rem solid var(--purple-light-4);
   padding: 0.8rem 1.2rem;
   color: var(--light-text-color);
-  background-color: var(--purple-light-1);
+  /* background-color: var(--purple-light-1); */
   font-family: var(--base-font);
 }
 
