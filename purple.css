@@ -274,14 +274,14 @@ table thead th {
 /* 表格 背景色 */
 table tr:nth-child(2n),
 thead {
-  background-color: var(--purple-light-2);
+  background-color: var(--purple-light-1);
 }
 table tr:nth-child(2n + 1),
 thead {
   background-color: #fff;
 }
 #write table thead th {
-  background-color: var(--purple-light-3);
+  background-color: var(--purple-light-2);
 }
 
 /* 粗体 */
