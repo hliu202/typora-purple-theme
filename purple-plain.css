@@ -19,12 +19,6 @@ h2 {
   border-bottom: 1px solid var(--text-color);
 }
 
-/* 粗体 */
-/* #write strong {
-  color: var(--text-color);
-  font-weight: bold;
-} */
-
 /* inline code */
 #write code,
 tt {
@@ -36,11 +30,6 @@ tt {
   color: var(--text-color);
   background-color: var(--purple-light-2);
 }
-
-/* 斜体 */
-/* #write em {
-  color: var(--text-color);
-} */
 
 /* 引用 */
 blockquote {

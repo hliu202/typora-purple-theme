@@ -92,11 +92,6 @@ a {
   color: var(--link-color);
   text-decoration: none;
 }
-/* #write a {
-  border-bottom: 1px solid var(--link-color);
-  color: var(--link-color);
-  text-decoration: none;
-} */
 #write a:hover {
   border-bottom: 1px solid var(--link-color);
   color: var(--link-color);
@@ -114,8 +109,7 @@ h5,
 h6 {
   position: relative;
   margin-top: 1rem;
-  margin-bottom: 0.5rem;
-  /* font-weight: bold; */
+  margin-bottom: 1rem;
   font-weight: normal;
   line-height: 1.4;
   cursor: text;
@@ -155,10 +149,8 @@ h1 {
 }
 h1 {
   text-align: center;
-  padding-bottom: 0.3em;
-  font-size: 2.2em;
+  font-size: 2.25em;
   line-height: 1.2;
-  margin: 1.6em auto 1em;
 }
 h1:after {
   content: "";
@@ -170,25 +162,24 @@ h1:after {
 }
 
 h2 {
-  margin: 1.4em auto 0.8em;
-  padding-left: 10px;
-  line-height: 1.4;
-  font-size: 1.8em;
+  padding-left: 0.4em;
+  line-height: 1.2;
+  font-size: 1.75em;
   border-left: 9px solid var(--title-color);
   border-bottom: 1px solid var(--title-color);
 }
 h3 {
-  font-size: 1.5rem;
-  margin: 1.2em auto 0.5em;
+  font-size: 1.5em;
+  line-height: 1.43;
 }
 h4 {
-  font-size: 1.3rem;
+  font-size: 1.25em;
 }
 h5 {
-  font-size: 1.2rem;
+  font-size: 1.1em;
 }
 h6 {
-  font-size: 1.1rem;
+  font-size: 1em;
 }
 
 p,
@@ -237,17 +228,11 @@ ul li {
   padding-left: 0.1rem;
 }
 
-/* 无序列表，显示为空心圆 */
-/* ul {
-  list-style-type: circle;
-} */
-
 /* 引用 */
 blockquote {
   border-left: 0.2em solid var(--purple-light-4);
   padding-left: 1em;
   color: var(--light-text-color);
-  /* background-color: var(--purple-light-1); */
   font-family: var(--base-font);
 }
 
@@ -262,7 +247,7 @@ table td {
   padding: 8px;
   line-height: 1.25rem;
   vertical-align: middle;
-  border: 1px solid #fff;
+  border: 2px solid #fff;
 }
 table th {
   font-weight: bold
@@ -287,15 +272,12 @@ thead {
 /* 粗体 */
 #write strong {
   padding: 0 2px;
-  /* color: var(--bold-color); */
   font-weight: bold;
 }
 
 /* 斜体 */
 #write em {
   padding: 0 5px 0 2px;
-  /* font-style: normal; */
-  /* color: #4abdeb; */
 }
 
 /* inline code */
@@ -451,7 +433,6 @@ pre {
   background: #fdfdfd !important;
 }
 #write pre.md-fences {
-  /* padding: 1rem 0.5rem 1rem; */
   display: block;
   -webkit-overflow-scrolling: touch;
   box-shadow: var(--shadow);
@@ -464,7 +445,6 @@ pre {
 
 .cm-s-inner.CodeMirror,
 .cm-s-inner .CodeMirror-gutters {
-  /* background-color: #f8f8f8 !important; */
   color: #3a3432 !important;
   border: none;
 }
@@ -514,8 +494,6 @@ pre {
 }
 
 .cm-s-inner span.cm-def {
-  /*   color: #e8bbd0;
-  color: #e2287f; */
   color: var(--text-color);
 }
 
@@ -573,9 +551,9 @@ pre {
   color: #5c5855;
 }
 
-/* .md-fences.md-focus .cm-s-inner .CodeMirror-activeline-background {
-  background: var(--purple-light-2);
-} */
+.md-fences.md-focus .cm-s-inner .CodeMirror-activeline-background {
+  background: var(--purple-light-1);
+}
 
 .cm-s-inner .CodeMirror-matchingbracket {
   text-decoration: underline;
@@ -590,9 +568,7 @@ pre {
 #write .code-tooltip {
   bottom: initial;
   top: calc(100% - 1px);
-  /* background: #f7f7f7; */
   border: 1px solid #ddd;
-  /* border-top: 0; */
 }
 
 .auto-suggest-container {
