@@ -24,3 +24,8 @@
 
 ![5](./ScreenShots/5.png)
 
+![6](./ScreenShots/6.png)
+
+![7](./ScreenShots/7.png)
+
+![8](./ScreenShots/8.png)
