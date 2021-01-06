@@ -69,12 +69,12 @@ a {
 /* 表格 背景色 */
 table tr:nth-child(2n),
 thead {
-  background-color: #f7f7f7;
+  background-color: rgba(238, 238, 238, 0.5);
 }
 table tr:nth-child(2n + 1),
 thead {
-  background-color: #ffffff;
+  background-color: #fff;
 }
 #write table thead th {
-  background-color: #eeeeee;
+  background-color: #eee;
 }

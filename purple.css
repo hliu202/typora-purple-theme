@@ -43,9 +43,9 @@
 
   --shadow: var(--purple-light-3) 0px 5px 10px;
 
-  --border: #eee;
-  --fence-border: var(--border);
-  --table-border: #ddd;
+  --border: #d3d3d3;
+  --fence-border: #eee;
+  --table-border: #eee;
   --boxes: #f0eef5;
 }
 
@@ -202,9 +202,9 @@ table {
 
 /* horizontal rule */
 hr {
-  margin: 16px 0;
+  margin: 2em auto;
   border: 0;
-  border-top: 2px solid var(--border);
+  border-top: 1px solid var(--border);
 }
 
 /* 列表 */
@@ -244,8 +244,8 @@ ul li {
 
 /* 引用 */
 blockquote {
-  border-left: 0.2rem solid var(--purple-light-4);
-  padding: 0.8rem 1.2rem;
+  border-left: 0.2em solid var(--purple-light-4);
+  padding-left: 1em;
   color: var(--light-text-color);
   /* background-color: var(--purple-light-1); */
   font-family: var(--base-font);
@@ -255,15 +255,14 @@ blockquote {
 
 table {
   font-size: 0.9rem;
-  margin-bottom: 1.25rem
+  margin-bottom: 1.25rem;
 }
 table th,
 table td {
   padding: 8px;
   line-height: 1.25rem;
   vertical-align: middle;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
+  border: 1px solid #fff;
 }
 table th {
   font-weight: bold
@@ -275,14 +274,14 @@ table thead th {
 /* 表格 背景色 */
 table tr:nth-child(2n),
 thead {
-  background-color: #f7f7f7;
+  background-color: var(--purple-light-2);
 }
 table tr:nth-child(2n + 1),
 thead {
-  background-color: #ffffff;
+  background-color: #fff;
 }
 #write table thead th {
-  background-color: #eeeeee;
+  background-color: var(--purple-light-3);
 }
 
 /* 粗体 */
