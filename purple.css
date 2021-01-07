@@ -1,6 +1,6 @@
 :root {
   --control-text-color: #777;
-  --select-text-bg-color: rgba(223, 197, 223); /*#7e66992e;*/
+  --select-text-bg-color:#ebe1f5;
   --search-select-bg-color: #8163bd;
 
   /* side bar */
@@ -302,8 +302,8 @@ tt {
 
 /* highlight. */
 #write mark {
-  background-color: rgb(255, 217, 255);
-  border-radius: 2px;
+  background-color: var(--select-text-bg-color);
+  border-radius: 0.3rem;
   padding: 2px 4px;
   margin: 0 2px;
   color: var(--text-color);
@@ -423,7 +423,7 @@ footer {
 
 /* 代码段 背景 */
 pre {
-  --select-text-bg-color: rgba(223, 197, 223) !important;
+  --select-text-bg-color: #ebe1f5;
 }
 
 /* border and bg */
