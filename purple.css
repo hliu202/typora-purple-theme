@@ -163,7 +163,7 @@ h1:after {
 
 h2 {
   padding-left: 0.4em;
-  line-height: 1.2;
+  line-height: 1.4;
   font-size: 1.75em;
   border-left: 9px solid var(--title-color);
   border-bottom: 1px solid var(--title-color);
