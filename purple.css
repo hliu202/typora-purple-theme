@@ -229,7 +229,6 @@ blockquote {
 /* 表格 */
 
 table {
-  font-size: 0.9rem;
   margin-bottom: 1.25rem;
 }
 table th,
@@ -251,7 +250,7 @@ table thead th {
 /* 表格 背景色 */
 table tr:nth-child(2n),
 thead {
-  background-color: #fbfbfb;
+  background-color: #fcfcfc;
 }
 
 /* 粗体 */
