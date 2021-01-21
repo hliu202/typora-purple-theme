@@ -237,7 +237,7 @@ table td {
   padding: 8px;
   line-height: 1.25rem;
   vertical-align: middle;
-  border: 2px solid #fff;
+  border: 1px solid var(--border);
 }
 table th {
   font-weight: bold;
@@ -247,16 +247,18 @@ table thead th {
 }
 
 /* 表格 背景色 */
+
+/* 表格 背景色 */
 table tr:nth-child(2n),
 thead {
-  background-color: var(--purple-light-1);
+  background-color: #f8f8f8;
 }
 table tr:nth-child(2n + 1),
 thead {
   background-color: #fff;
 }
 #write table thead th {
-  background-color: var(--purple-light-2);
+  background-color: #f8f8f8;
 }
 
 /* 粗体 */

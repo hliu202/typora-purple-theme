@@ -54,16 +54,3 @@ a {
 .md-content {
   color: #777;
 }
-
-/* 表格 背景色 */
-table tr:nth-child(2n),
-thead {
-  background-color: rgba(238, 238, 238, 0.5);
-}
-table tr:nth-child(2n + 1),
-thead {
-  background-color: #fff;
-}
-#write table thead th {
-  background-color: #eee;
-}
