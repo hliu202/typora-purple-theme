@@ -236,7 +236,7 @@ table td {
   padding: 8px;
   line-height: 1.25rem;
   vertical-align: middle;
-  border: 1px solid var(--border);
+  border: 1px solid #ddd;
 }
 table th {
   font-weight: bold;
