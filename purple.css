@@ -260,11 +260,6 @@ thead {
   font-weight: bold;
 }
 
-/* 斜体 */
-#write em {
-  padding: 0 5px 0 2px;
-}
-
 /* inline code */
 #write code,
 tt {
