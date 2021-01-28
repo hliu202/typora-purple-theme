@@ -13,6 +13,7 @@
   --purple-light-2: rgba(116, 95, 181, 0.1);
   --purple-light-3: rgba(116, 95, 181, 0.3);
   --purple-light-4: rgba(116, 95, 181, 0.7);
+  --purple-light-5: rgba(116, 95, 181, 0.8);
   --border: #eee;
 
   --shadow: 0rem 0.2rem 0.4rem var(--purple-light-2);
@@ -83,8 +84,8 @@ a {
   text-decoration: none;
 }
 #write a:hover {
-  border-bottom: 1px solid var(--link-color);
-  color: var(--link-color);
+  border-bottom: 1px dashed var(--purple-light-5);
+  color: var(--purple-light-5);
   text-decoration: none;
 }
 .md-content {
