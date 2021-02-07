@@ -80,12 +80,13 @@ body > *:last-child {
 }
 
 a {
+  border-bottom: 1px dashed var(--purple-light-4);
   color: var(--link-color);
   text-decoration: none;
 }
 #write a:hover {
-  border-bottom: 1px dashed var(--purple-light-5);
-  color: var(--purple-light-5);
+  border-bottom: 1px dashed var(--purple-light-4);
+  color: var(--purple-light-4);
   text-decoration: none;
 }
 .md-content {

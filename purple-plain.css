@@ -38,11 +38,7 @@ blockquote {
 
 /* 链接 */
 a {
-  color: var(--text-color);
-  text-decoration: none;
-}
-#write a {
-  border-bottom: 1px dashed var(--text-color);
+  border-bottom: 1px dashed #777;
   color: var(--text-color);
   text-decoration: none;
 }
