@@ -80,9 +80,11 @@ body > *:last-child {
 }
 
 a {
-  border-bottom: 1px dashed var(--purple-light-4);
   color: var(--link-color);
   text-decoration: none;
+}
+#write a {
+  border-bottom: 1px dashed var(--purple-light-4);
 }
 #write a:hover {
   border-bottom: 1px dashed var(--purple-light-4);
