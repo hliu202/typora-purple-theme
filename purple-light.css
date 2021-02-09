@@ -1,24 +1,5 @@
 @import "./purple.css";
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: bold;
-  color: var(--text-color);
-}
-
-h1:after {
-  border-bottom: 2px solid var(--text-color);
-}
-
-h2 {
-  border-left: 9px solid var(--text-color);
-  border-bottom: 1px solid var(--text-color);
-}
-
 /* inline code */
 #write code,
 tt {
@@ -33,7 +14,6 @@ tt {
   border: 1px solid #e7eaed;
 }
 
-/* 引用 */
 blockquote {
   border-left: 0.2rem solid #dfe2e5;
 }
@@ -47,8 +27,8 @@ a {
   border-bottom: 1px dashed #777;
 }
 #write a:hover {
-  border-bottom: 1px dashed #777;
-  color: #777;
+  border-bottom: 1px dashed var(--purple-light-4);
+  color: var(--link-color);
   text-decoration: none;
 }
 .md-content {

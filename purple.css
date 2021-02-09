@@ -3,11 +3,11 @@
   --select-text-bg-color: #ebe1f5;
   --search-select-bg-color: #8163bd;
 
-  --title-color: #6c549c;
+  --title-color: /* #6c549c */ #79589F;
   --text-color: #333333;
   --light-text-color: #666666;
 
-  --link-color: #745fb5;
+  --link-color: #745fb5;;
   --code-color: #ff79c6;
   --purple-light-1: rgba(116, 95, 181, 0.05);
   --purple-light-2: rgba(116, 95, 181, 0.1);
