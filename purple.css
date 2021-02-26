@@ -84,7 +84,7 @@ a {
   text-decoration: none;
 }
 #write a {
-  border-bottom: 1px dashed var(--purple-light-4);
+  border-bottom: none;
 }
 #write a:hover {
   border-bottom: 1px dashed var(--purple-light-4);
@@ -347,7 +347,7 @@ tt {
 
 /* 写![shadow-...]() 显示图片阴影 */
 img[alt|="shadow"] {
-  box-shadow: var(--shadow);
+  box-shadow: 0rem 0.4rem 0.8rem var(--purple-light-2);
 }
 
 #write a.md-toc-inner {
