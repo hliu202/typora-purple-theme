@@ -1,5 +1,12 @@
 @import "./purple.css";
 
+:root {
+  --select-text-bg-color: #dae3ea;
+}
+pre {
+  --select-text-bg-color: #dae3ea;
+}
+
 h1,
 h2,
 h3,
