@@ -24,10 +24,10 @@ a {
   text-decoration: none;
 }
 #write a {
-  border-bottom: 1px solid #777;
+  border-bottom: 1px dashed #777;
 }
 #write a:hover {
-  border-bottom: 1px solid var(--purple-light-4);
+  border-bottom: 1px dashed var(--purple-light-4);
   color: var(--link-color);
   text-decoration: none;
 }
