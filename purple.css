@@ -439,6 +439,10 @@ pre {
   background: #ddd;
 }
 
+.cm-s-inner span.cm-comment {
+    color: #9DAAB6;
+}
+
 /* language tip */
 #write .code-tooltip {
   border: 1px solid var(--border);
