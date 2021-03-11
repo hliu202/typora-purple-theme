@@ -3,11 +3,11 @@
   --select-text-bg-color: #ebe1f5;
   --search-select-bg-color: #8163bd;
 
-  --title-color: /* #6c549c */ #79589F;
+  --title-color: /* #6c549c */ #79589f;
   --text-color: #333333;
   --light-text-color: #666666;
 
-  --link-color: #745fb5;;
+  --link-color: #745fb5;
   --code-color: #ff79c6;
   --purple-light-1: rgba(116, 95, 181, 0.05);
   --purple-light-2: rgba(116, 95, 181, 0.1);
@@ -30,7 +30,7 @@
     "Noto Sans CJK SC", "PingFang SC", "Hiragino Sans GB", "Source Han Sans SC",
     "Source Han Sans CN", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti",
     SimHei, "WenQuanYi Zen Hei Sharp", "Source Sans Pro", sans-serif;
-  --title-font: "EB Garamond", Georgia, "Noto Serif", "Noto Serif CJK SC", 
+  --title-font: "EB Garamond", Georgia, "Noto Serif", "Noto Serif CJK SC",
     "Nimbus Roman No9 L", "Songti SC", "Source Han Serif SC",
     "Source Han Serif CN", STSong, "AR PL New Sung", "AR PL SungtiL GB", NSimSun,
     SimSun, "TW\-Sung", "WenQuanYi Bitmap Song", "AR PL UMing CN",
@@ -39,6 +39,18 @@
   --monospace: "JetBrains Mono", "Fira Code", "Cascadia Code", "Sarasa Term SC",
     Monaco, "Deja Vu Sans Mono", Consolas, "Lucida Console", "Andale Mono",
     "Roboto Mono", Courier, Monospace !important;
+}
+
+/* PDF打印：A3 */
+@media print {
+  #write {
+    max-width: 100%;
+  }
+  @page {
+    size: A3; /* A4 */
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
 
 html {
@@ -87,7 +99,7 @@ a {
   border-bottom: none;
 }
 #write a:hover {
-  border-bottom: 1px dashed var(--purple-light-4);
+  border-bottom: 1px solid var(--purple-light-4);
   color: var(--purple-light-4);
   text-decoration: none;
 }
@@ -269,7 +281,7 @@ tt {
   padding: 2px 4px;
   border-radius: 0.3rem;
   font-family: var(--monospace);
-  font-size: 0.92rem;
+  font-size: 0.9rem;
   color: var(--code-color);
   background-color: var(--purple-light-1);
 }
@@ -440,7 +452,7 @@ pre {
 }
 
 .cm-s-inner span.cm-comment {
-    color: #9DAAB6;
+  color: #9daab6;
 }
 
 /* language tip */
