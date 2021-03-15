@@ -47,7 +47,7 @@
     max-width: 100%;
   }
   @page {
-    size: A3; /* A4 */
+    size: A4; /* A4 */
     margin-left: 0;
     margin-right: 0;
   }
