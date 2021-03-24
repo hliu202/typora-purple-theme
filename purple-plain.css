@@ -1,6 +1,7 @@
 @import "./purple.css";
 
 :root {
+  --title-color: #444444;
   --select-text-bg-color: #dae3ea;
 }
 pre {
@@ -13,17 +14,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: bold;
+  font-weight: lighter;
   color: var(--text-color);
-}
-
-h1:after {
-  border-bottom: 2px solid var(--text-color);
-}
-
-h2 {
-  border-left: 9px solid var(--text-color);
-  border-bottom: 1px solid var(--text-color);
 }
 
 /* inline code */
