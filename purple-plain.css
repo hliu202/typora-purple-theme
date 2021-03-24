@@ -21,15 +21,11 @@ h6 {
 /* inline code */
 #write code,
 tt {
-  color: #3f3f44;
-  background-color: var(--purple-light-1);
-  border: 1px solid #e7eaed;
+  color: #333333;
 }
 
 #write .md-footnote {
-  color: #3f3f44;
-  background-color: var(--purple-light-1);
-  border: 1px solid #e7eaed;
+  color: #333333;
 }
 
 /* 引用 */

@@ -258,7 +258,7 @@ tt {
   font-family: var(--monospace);
   font-size: 0.9rem;
   color: var(--code-color);
-  background-color: var(--purple-light-1);
+  background-color: #f4f2f9;
 }
 
 tt {
@@ -266,17 +266,17 @@ tt {
 }
 
 #write .md-footnote {
-  background-color: var(--purple-light-1);
   color: var(--code-color);
+  background-color: #f4f2f9;
 }
 
 /* highlight. */
 #write mark {
-  background-color: var(--select-text-bg-color);
+  background-color: #f9f2f4;
   border-radius: 0.3rem;
   padding: 2px 4px;
   margin: 0 2px;
-  color: var(--text-color);
+  color: #c7254e;
 }
 
 #write del {
