@@ -1,0 +1,58 @@
+@import "./purple.css";
+
+:root {
+  --title-color: #444444;
+  --select-text-bg-color: #dae3ea;
+}
+pre {
+  --select-text-bg-color: #dae3ea;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: lighter;
+  color: var(--text-color);
+}
+
+/* inline code */
+#write code,
+tt {
+  color: #0072be;
+  background-color: #f4f2f9;
+}
+
+#write .md-footnote {
+  color: #0072be;
+  background-color: #f4f2f9;
+}
+
+blockquote {
+  border-left: 0.2rem solid #dfe2e5;
+}
+
+/* 链接 */
+a {
+  color: #337ab7;
+  text-decoration: none;
+}
+#write a:hover {
+  border-bottom: 1px solid #0071bc;
+  color: #0071bc;
+  text-decoration: none;
+}
+.md-content {
+  color: #777;
+}
+
+/* highlight. */
+#write mark {
+  background-color: #f9f2f4;
+  border-radius: 0.3rem;
+  padding: 2px 4px;
+  margin: 0 2px;
+  color: #c7254e;
+}
