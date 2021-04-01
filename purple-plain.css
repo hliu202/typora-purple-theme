@@ -39,11 +39,11 @@ a {
   text-decoration: none;
 }
 #write a {
-  border-bottom: 1px solid var(--text-color);
+  border-bottom: 1px solid #bbb;
 }
 #write a:hover {
-  border-bottom: 1px solid #777;
-  color: #777;
+  border-bottom: 1px solid var(--text-color);
+  color: var(--text-color);
   text-decoration: none;
 }
 .md-content {

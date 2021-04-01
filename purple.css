@@ -99,8 +99,8 @@ a {
   border-bottom: none;
 }
 #write a:hover {
-  border-bottom: 1px solid var(--purple-light-4);
-  color: var(--purple-light-4);
+  border-bottom: 1px solid var(--link-color);
+  color: var(--link-color);
   text-decoration: none;
 }
 .md-content {
