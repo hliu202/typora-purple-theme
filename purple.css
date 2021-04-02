@@ -3,12 +3,12 @@
   --select-text-bg-color: #ebe1f5;
   --search-select-bg-color: #8163bd;
 
-  --title-color: /* #6c549c */ #79589f;
+  --title-color:#8064a9;
   --text-color: #444444;
   --light-text-color: #666666;
 
-  --link-color: #745fb5;
-  --code-color: #ff79c6;
+  --link-color: #2aa899;
+  --code-color: #745fb5;
   --purple-light-1: rgba(116, 95, 181, 0.05);
   --purple-light-2: rgba(116, 95, 181, 0.1);
   --purple-light-3: rgba(116, 95, 181, 0.3);
@@ -104,7 +104,7 @@ a {
   text-decoration: none;
 }
 .md-content {
-  color: var(--purple-light-4);
+  color: #777;
 }
 
 h1,
@@ -117,7 +117,7 @@ h6 {
   margin-top: 2rem;
   margin-bottom: 1rem;
   font-weight: normal;
-  line-height: 1.6rem;
+  line-height: 1.3;
   cursor: text;
   color: var(--title-color);
   font-family: var(--title-font);
@@ -126,7 +126,6 @@ h6 {
 h1 {
   text-align: center;
   font-size: 2.25em;
-  line-height: 1.4;
   margin-bottom: 2rem;
 }
 h1:after {
@@ -140,16 +139,15 @@ h1:after {
 
 h2 {
   padding-left: 0.4em;
-  line-height: 1.4;
   font-size: 1.75em;
-  border-left: 9px solid var(--title-color);
+  border-left: 0.4em solid var(--title-color);
   border-bottom: 1px solid var(--title-color);
 }
 h3 {
   font-size: 1.5em;
 }
 h4 {
-  font-size: 1.35em;
+  font-size: 1.3em;
 }
 h5 {
   font-size: 1.2em;

@@ -30,7 +30,7 @@ tt {
 
 /* 引用 */
 blockquote {
-  border-left: 0.2rem solid #dfe2e5;
+  border-left: 0.2rem solid #eee;
 }
 
 /* 链接 */
@@ -45,7 +45,4 @@ a {
   border-bottom: 1px solid var(--text-color);
   color: var(--text-color);
   text-decoration: none;
-}
-.md-content {
-  color: #777;
 }
