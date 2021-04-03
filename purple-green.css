@@ -2,8 +2,8 @@
 
 :root {
   --title-color: #444444;
-  --link-color: #444444;
-  --code-color: #222222;
+  --link-color: #2aa899;
+  --code-color: #2aa899;
 }
 
 blockquote {
@@ -18,9 +18,4 @@ h5,
 h6 {
   font-weight: bold;
   color: var(--text-color);
-}
-
-/* 链接 */
-#write a {
-  border-bottom: 1px solid #bbb;
 }

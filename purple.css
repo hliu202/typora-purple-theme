@@ -1,29 +1,21 @@
 :root {
-  --control-text-color: #777;
-  --select-text-bg-color: #ebe1f5;
-  --search-select-bg-color: #8163bd;
-
-  --title-color:#8064a9;
+  --title-color: #8064a9;
   --text-color: #444444;
   --light-text-color: #666666;
-
   --link-color: #2aa899;
   --code-color: #745fb5;
-  --purple-light-1: rgba(116, 95, 181, 0.05);
-  --purple-light-2: rgba(116, 95, 181, 0.1);
-  --purple-light-3: rgba(116, 95, 181, 0.3);
-  --purple-light-4: rgba(116, 95, 181, 0.7);
-  --purple-light-5: rgba(116, 95, 181, 0.8);
+
+  --shadow-color: rgba(116, 95, 181, 0.1);
+  --purple-light: rgba(116, 95, 181, 0.3);
   --border: #eee;
+  --shadow: 0rem 0.2rem 0.4rem var(--shadow-color);
 
-  --shadow: 0rem 0.2rem 0.4rem var(--purple-light-2);
-
-  /* side bar */
-  --side-bar-bg-color: #f7f7fb;
+  --side-bar-bg-color: #fafafa;
+  --control-text-color: var(var(--light-text-color));
   --active-file-text-color: var(--title-color);
-  --active-file-bg-color: var(--purple-light-2);
-  --item-hover-bg-color: var(--purple-light-2);
-  --active-file-border-color: var(--purple-light-4);
+  --active-file-bg-color: var(--shadow-color);
+  --item-hover-bg-color: var(--shadow-color);
+  --active-file-border-color: var(var(--title-color));
 
   --base-font: "Helvetica Neue", "Noto Sans", -apple-system, Ubuntu,
     "Microsoft YaHei", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans",
@@ -41,13 +33,25 @@
     "Roboto Mono", Courier, Monospace !important;
 }
 
-/* PDF打印：A3 */
+/* 打印 */
 @media print {
+  html {
+    font-size: 0.9rem;
+  }
+
+  table,
+  pre {
+    page-break-inside: avoid;
+  }
+
+  pre {
+    word-wrap: break-word;
+  }
   #write {
     max-width: 100%;
   }
   @page {
-    size: A4; /* A3 */
+    size: A4; /* PDF A4 */
     margin-left: 0;
     margin-right: 0;
   }
@@ -104,7 +108,7 @@ a {
   text-decoration: none;
 }
 .md-content {
-  color: #777;
+  color: var(--light-text-color);
 }
 
 h1,
@@ -204,14 +208,13 @@ ul li {
 
 /* 引用 */
 blockquote {
-  border-left: 0.2em solid var(--purple-light-3);
+  border-left: 0.2em solid var(--purple-light);
   padding-left: 1em;
   color: var(--light-text-color);
   font-family: var(--base-font);
 }
 
 /* 表格 */
-
 table {
   margin-bottom: 1.25rem;
 }
@@ -228,10 +231,6 @@ table th {
 table thead th {
   vertical-align: middle;
 }
-
-/* 表格 背景色 */
-
-/* 表格 背景色 */
 table tr:nth-child(2n),
 thead {
   background-color: #fcfcfc;
@@ -252,9 +251,6 @@ tt {
   font-size: 0.9rem;
   color: var(--code-color);
   background-color: #f4f2f9;
-}
-
-tt {
   margin: 0 2px;
 }
 
@@ -278,21 +274,6 @@ tt {
 
 .md-task-list-item > input {
   margin-left: -1.3em;
-}
-
-@media print {
-  html {
-    font-size: 0.9rem;
-  }
-
-  table,
-  pre {
-    page-break-inside: avoid;
-  }
-
-  pre {
-    word-wrap: break-word;
-  }
 }
 
 #write pre.md-meta-block {
@@ -327,7 +308,7 @@ tt {
 
 /* 写![shadow-...]() 显示图片阴影 */
 img[alt|="shadow"] {
-  box-shadow: 0rem 0.4rem 0.8rem var(--purple-light-2);
+  box-shadow: 0rem 0.4rem 0.8rem var(--shadow-color);
 }
 
 #write a.md-toc-inner {
@@ -356,9 +337,6 @@ footer {
 .html-for-mac .context-menu {
   --item-hover-bg-color: #e6f0fe;
 }
-
-/* 代码框 */
-/* CodeMirror 3024 Day theme */
 
 /* 代码段 背景 */
 pre {
@@ -403,11 +381,11 @@ pre {
 .cm-s-inner .CodeMirror-line > span::-moz-selection,
 .cm-s-inner .CodeMirror-line > span > span::selection,
 .cm-s-inner .CodeMirror-line > span > span::-moz-selection {
-  background: var(--purple-light-1);
+  background: var(--shadow-color);
 }
 
 .md-fences.md-focus .cm-s-inner .CodeMirror-activeline-background {
-  background: var(--purple-light-1);
+  background: var(--shadow-color);
 }
 
 .cm-s-inner .CodeMirror-matchingbracket {
@@ -501,70 +479,11 @@ pre {
   opacity: 0.6;
 }
 
-/* sidebar and outline */
-.pin-outline .outline-active {
-  color: var(--active-file-text-color);
-}
-
+/* sidebar */
 #typora-sidebar,
 .typora-node #typora-sidebar {
-  box-shadow: 3px 0px 10px var(--purple-light-2);
+  box-shadow: 3px 0px 10px var(--shadow-color);
 }
-
-.file-list-item {
-  border-bottom: 1px solid;
-  border-color: var(--purple-light-2);
-}
-
-.file-list-item-summary {
-  font-weight: normal;
-}
-
-.file-list-item.active {
-  color: var(--active-file-text-color);
-  background-color: var(--purple-light-2);
-}
-
-.file-tree-node.active > .file-node-background {
-  background-color: var(--purple-light-2);
-  font-weight: normal;
-}
-
-.file-tree-node.active > .file-node-content {
-  color: var(--active-file-text-color);
-  font-weight: normal;
-}
-
-.sidebar-tabs {
-  border-bottom: none;
-}
-.sidebar-tab.active {
-  font-weight: normal;
-}
-.info-panel-tab-border {
-  color: var(--purple-light-4);
-}
-
 .sidebar-content-content {
   font-size: 0.9rem;
-}
-
-/* 搜索 */
-.ty-file-search-match-text {
-  background-color: var(--purple-light-3);
-}
-.md-search-hit {
-  background-color: var(--purple-light-3);
-  contain: style;
-}
-
-element.style {
-  width: calc(100% - 18px);
-}
-#file-library-search-input:focus {
-  border-color: var(--purple-light-3);
-}
-.code-tooltip .ty-input:focus,
-input:focus {
-  border-color: var(--purple-light-3);
 }
