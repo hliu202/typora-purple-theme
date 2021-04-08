@@ -3,11 +3,11 @@
 :root {
   --title-color: #444444;
   --link-color: #444444;
-  --code-color: #222222;
+  --code-color: #444444;
 }
 
 blockquote {
-  border-left: 0.3rem solid #eee;
+  border-left: 0.3rem solid var(--border);
 }
 
 h1,
@@ -22,5 +22,14 @@ h6 {
 
 /* 链接 */
 #write a {
-  border-bottom: 1px solid #bbb;
+  border-bottom: 1px solid #ccc;
+}
+
+#write code,
+tt {
+  background-color: #f4f4f4;
+}
+
+#write .md-footnote {
+  background-color: #f4f4f4;
 }
