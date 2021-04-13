@@ -8,7 +8,7 @@
   --shadow-color: #eee;
   --purple-light: rgba(116, 95, 181, 0.2);
   --border: #e7e7e7;
-  --shadow: 5px 5px 10px var(--shadow-color);
+  --shadow: 3px 3px 10px var(--shadow-color);
 
   --side-bar-bg-color: #fafafa;
   --control-text-color: var(var(--light-text-color));
