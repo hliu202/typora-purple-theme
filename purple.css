@@ -337,11 +337,6 @@ footer {
   --item-hover-bg-color: #e6f0fe;
 }
 
-/* 代码段 背景 */
-pre {
-  --select-text-bg-color: #ebe1f5;
-}
-
 /* border and bg */
 .md-fences {
   border: 1px solid var(--border);
