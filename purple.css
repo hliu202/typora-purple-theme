@@ -8,7 +8,7 @@
   --shadow-color: #eee;
   --purple-light: rgba(116, 95, 181, 0.2);
   --border: #e7e7e7;
-  --shadow: 0px 5px 5px var(--shadow-color);
+  --shadow: 5px 5px 10px var(--shadow-color);
 
   --side-bar-bg-color: #fafafa;
   --control-text-color: var(var(--light-text-color));
@@ -344,11 +344,11 @@ footer {
   background: #fdfdfd !important;
 }
 /* 代码框阴影 */
-/* #write pre.md-fences {
+#write pre.md-fences {
   display: block;
   -webkit-overflow-scrolling: touch;
   box-shadow: var(--shadow);
-} */
+}
 
 .cm-s-inner {
   padding: 0.25rem;
