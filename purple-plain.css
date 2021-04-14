@@ -1,9 +1,9 @@
 @import "./purple.css";
 
 :root {
-  --title-color: #444444;
-  --link-color: #444444;
-  --code-color: #444444;
+  --title-color: var(--text-color);
+  --link-color: var(--text-color);
+  --code-color: var(--text-color);
 }
 
 blockquote {
@@ -17,7 +17,6 @@ h4,
 h5,
 h6 {
   font-weight: bold;
-  color: var(--text-color);
 }
 
 /* 链接 */

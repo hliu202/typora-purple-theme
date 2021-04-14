@@ -172,7 +172,7 @@ table {
 /* horizontal rule */
 hr {
   margin: 1.5em auto;
-  border-top: 2px dashed var(--border);
+  border-top: 1px solid var(--border);
 }
 
 /* 列表 */
