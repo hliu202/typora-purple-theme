@@ -51,7 +51,7 @@
     max-width: 100%;
   }
   @page {
-    size: A4; /* PDF A4 */
+    size: A3; /* PDF output size */
     margin-left: 0;
     margin-right: 0;
   }
