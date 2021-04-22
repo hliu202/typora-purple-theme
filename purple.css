@@ -469,3 +469,11 @@ footer {
 .sidebar-content-content {
   font-size: 0.9rem;
 }
+
+/* Unibody 菜单栏  */
+.megamenu-menu-list:not(.saved) li a:hover,
+.megamenu-menu-list li a.active {
+    background-color: #202B33;
+    color: white;
+}
+
