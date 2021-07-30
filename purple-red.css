@@ -1,9 +1,9 @@
 @import "./purple.css";
 
 :root {
+  --link-color: #cc2950;
+  --code-color: #cc2950;
   --title-color: #444444;
-  --link-color: #2aa899;
-  --code-color: #2aa899;
   --border-quote: #eee;
   --header-weight: bold;
 }

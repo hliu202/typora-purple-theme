@@ -4,31 +4,7 @@
   --title-color: var(--text-color);
   --link-color: var(--text-color);
   --code-color: var(--text-color);
-}
-
-blockquote {
-  border-left: 0.3rem solid var(--border);
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: bold;
-}
-
-/* 链接 */
-#write a {
-  border-bottom: 1px solid #ccc;
-}
-
-#write code,
-tt {
-  background-color: #f4f4f4;
-}
-
-#write .md-footnote {
-  background-color: #f4f4f4;
+  --border-quote: var(--border);
+  --header-weight: bold;
+  --inline-code-bg: #f4f4f4;
 }
