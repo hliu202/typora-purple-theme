@@ -2,16 +2,17 @@
   --title-color: #8064a9;
   --text-color: #444444;
   --light-text-color: #666666;
+  --lighter-text-color: #888888;
   --link-color: #2aa899;
   --code-color: #745fb5;
 
   --shadow-color: #eee;
   --border-quote: rgba(116, 95, 181, 0.2);
   --border: #e7e7e7;
-  --link-bottom: #aaa;
+  --link-bottom: #bbb;
   --shadow: 3px 3px 10px var(--shadow-color);
   --inline-code-bg: #f4f2f9;
-  
+
   --header-weight: normal;
 
   --side-bar-bg-color: #fafafa;
@@ -105,13 +106,14 @@ a {
   text-decoration: none;
 }
 #write a {
-  border-bottom: 1px dashed var(--link-bottom);
+  border-bottom: 1px solid var(--link-bottom);
 }
 #write a:hover {
-  border-bottom: 1px dashed var(--link-color);
-/*   color: var(--link-color);
-  text-decoration: none; */
+  border-bottom: 1px solid var(--link-color);
+  /*   color: var(--link-color);
+    text-decoration: none; */
 }
+
 .md-content {
   color: var(--light-text-color);
 }
@@ -315,11 +317,18 @@ img[alt|="shadow"] {
   box-shadow: var(--shadow);
 }
 
+/* TOC: 不显示h1，加粗h2 */
 #write a.md-toc-inner {
   line-height: 1.6;
   white-space: pre-line;
   border-bottom: none;
   font-size: 0.9rem;
+}
+.md-toc-h1 {
+  display: none;
+}
+.md-toc-h2 .md-toc-inner {
+  font-weight: bold;
 }
 
 header,

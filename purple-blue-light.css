@@ -3,8 +3,7 @@
 :root {
   --title-color: var(--text-color);
   --link-color: var(--lighter-text-color);
-  --code-color: #222222;
-  --border-quote: var(--border);
+  --code-color: #0072be;
+  --border-quote: #eee;
   --header-weight: bold;
-  --inline-code-bg: #f4f4f4;
 }
