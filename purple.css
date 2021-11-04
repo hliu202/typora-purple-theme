@@ -351,11 +351,14 @@ footer {
   --item-hover-bg-color: #e6f0fe;
 }
 
-/* border and bg */
+/* Code fences */
+
+/* border, bg, font */
 .md-fences {
   border: 1px solid var(--border);
   border-radius: 5px;
   background: #fdfdfd !important;
+  font-size: 0.9rem;
 }
 /* 代码框阴影 */
 #write pre.md-fences {
