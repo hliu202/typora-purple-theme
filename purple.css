@@ -317,16 +317,17 @@ img[alt|="shadow"] {
   box-shadow: var(--shadow);
 }
 
-/* TOC: 不显示h1，加粗h2 */
+/* TOC: 加粗h2 */
 #write a.md-toc-inner {
   line-height: 1.6;
   white-space: pre-line;
   border-bottom: none;
+  color: var(--light-text-color);
   font-size: 0.9rem;
 }
-.md-toc-h1 {
+/* .md-toc-h1 {
   display: none;
-}
+} */
 .md-toc-h2 .md-toc-inner {
   font-weight: bold;
 }
