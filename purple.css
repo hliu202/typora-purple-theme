@@ -22,7 +22,7 @@
   --item-hover-bg-color: var(--shadow-color);
   --active-file-border-color: var(var(--title-color));
 
-  --base-font: "Helvetica Neue", "Noto Sans", -apple-system, Ubuntu,
+  --base-font: "Helvetica Neue", -apple-system, Ubuntu,
     "Microsoft YaHei", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans",
     "Noto Sans CJK SC", "PingFang SC", "Hiragino Sans GB", "Source Han Sans SC",
     "Source Han Sans CN", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti",
