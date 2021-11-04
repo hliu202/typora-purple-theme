@@ -214,9 +214,7 @@ ul li {
 
 /* 引用 */
 blockquote {
-  border-left: 0.3rem solid #9b83e6;
-  border-radius: 2px;
-  background-color: #eee;
+  border-left: 0.3rem solid var(--border-quote);
   padding-left: 1em;
   color: var(--light-text-color);
   font-family: var(--base-font);
