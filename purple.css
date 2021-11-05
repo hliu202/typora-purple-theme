@@ -267,11 +267,7 @@ tt {
 
 /* highlight. */
 #write mark {
-  background-color: #f9f2f4;
-  border-radius: 0.3rem;
-  padding: 2px 4px;
-  margin: 0 2px;
-  color: #c7254e;
+  background: rgb(255, 255, 196);
 }
 
 #write del {
@@ -322,7 +318,7 @@ img[alt|="shadow"] {
   line-height: 1.6;
   white-space: pre-line;
   border-bottom: none;
-  color: var(--light-text-color);
+  color: var(--lighter-text-color);
   font-size: 0.9rem;
 }
 /* .md-toc-h1 {
