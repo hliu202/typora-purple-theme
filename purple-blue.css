@@ -4,6 +4,5 @@
   --title-color: var(--text-color);
   --link-color: #337ab7;
   --code-color: #0072be;
-  --border-quote: #eee;
-  --header-weight: bold;
+  --border-quote: var(--border-quote-grey);
 }

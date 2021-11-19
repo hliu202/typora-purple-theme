@@ -2,9 +2,8 @@
 
 :root {
   --title-color: var(--text-color);
-  --link-color: var(--lighter-text-color);
-  --code-color: #222222;
-  --border-quote: var(--border);
-  --header-weight: bold;
-  --inline-code-bg: #eee;
+  --link-color: var(--light-text-color);
+  --code-color: var(--text-color);
+  --border-quote: var(--border-quote-grey);
+  --inline-code-bg: #f3f4f4;
 }

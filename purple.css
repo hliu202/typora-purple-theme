@@ -1,3 +1,55 @@
+@include-when-export url(https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext);
+
+/* open-sans-regular - latin-ext_latin */
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Open Sans Regular"), local("OpenSans-Regular"),
+    url("./github/open-sans-v17-latin-ext_latin-regular.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD, U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+    U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* open-sans-italic - latin-ext_latin */
+@font-face {
+  font-family: "Open Sans";
+  font-style: italic;
+  font-weight: normal;
+  src: local("Open Sans Italic"), local("OpenSans-Italic"),
+    url("./github/open-sans-v17-latin-ext_latin-italic.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD, U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+    U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* open-sans-700 - latin-ext_latin */
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: bold;
+  src: local("Open Sans Bold"), local("OpenSans-Bold"),
+    url("./github/open-sans-v17-latin-ext_latin-700.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD, U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+    U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* open-sans-700italic - latin-ext_latin */
+@font-face {
+  font-family: "Open Sans";
+  font-style: italic;
+  font-weight: bold;
+  src: local("Open Sans Bold Italic"), local("OpenSans-BoldItalic"),
+    url("./github/open-sans-v17-latin-ext_latin-700italic.woff2")
+      format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD, U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+    U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
 :root {
   --title-color: #8064a9;
   --text-color: #444444;
@@ -8,6 +60,7 @@
 
   --shadow-color: #eee;
   --border-quote: rgba(116, 95, 181, 0.2);
+  --border-quote-grey: #c8c8c8;
   --border: #e7e7e7;
   --link-bottom: #bbb;
   --shadow: 3px 3px 10px var(--shadow-color);
@@ -22,20 +75,14 @@
   --item-hover-bg-color: var(--shadow-color);
   --active-file-border-color: var(var(--title-color));
 
-  --base-font: "Helvetica Neue", -apple-system, Ubuntu,
-    "Microsoft YaHei", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans",
-    "Noto Sans CJK SC", "PingFang SC", "Hiragino Sans GB", "Source Han Sans SC",
-    "Source Han Sans CN", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti",
-    SimHei, "WenQuanYi Zen Hei Sharp", "Source Sans Pro", sans-serif;
+  --base-font: "Open Sans", "Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   --title-font: "EB Garamond", Georgia, "Noto Serif", "Noto Serif CJK SC",
     "Nimbus Roman No9 L", "Songti SC", "Source Han Serif SC",
     "Source Han Serif CN", STSong, "AR PL New Sung", "AR PL SungtiL GB", NSimSun,
     SimSun, "TW\-Sung", "WenQuanYi Bitmap Song", "AR PL UMing CN",
     "AR PL UMing HK", "AR PL UMing TW", "AR PL UMing TW MBE", PMingLiU, MingLiU,
     "Ubuntu", "Source Sans Pro", serif;
-  --monospace: "JetBrains Mono", "Fira Code", "Cascadia Code", "Sarasa Term SC",
-    Monaco, "Deja Vu Sans Mono", Consolas, "Lucida Console", "Andale Mono",
-    "Roboto Mono", Courier, Monospace !important;
+  --monospace: Courier, Monospace !important;
 }
 
 /* 打印 */
@@ -73,7 +120,7 @@ html {
 body {
   color: var(--text-color);
   -webkit-font-smoothing: antialiased;
-  line-height: 1.6rem;
+  line-height: 1.6;
   letter-spacing: 0;
   overflow-x: hidden;
 }
@@ -108,11 +155,6 @@ a {
 #write a {
   border-bottom: 1px solid var(--link-bottom);
 }
-#write a:hover {
-  border-bottom: 1px solid var(--link-color);
-  /*   color: var(--link-color);
-    text-decoration: none; */
-}
 
 .md-content {
   color: var(--light-text-color);
@@ -136,13 +178,13 @@ h6 {
 
 h1 {
   text-align: center;
-  font-size: 2.25em;
   margin-bottom: 2rem;
+  line-height: 1.5;
 }
 h1:after {
   content: "";
   display: block;
-  margin: 0.2em auto 0;
+  margin: 0.2rem auto 0;
   width: 6rem;
   height: 2px;
   border-bottom: 2px solid var(--title-color);
@@ -150,21 +192,9 @@ h1:after {
 
 h2 {
   padding-left: 0.4em;
-  font-size: 1.75em;
+  line-height: 1.5;
   border-left: 0.4em solid var(--title-color);
   border-bottom: 1px solid var(--title-color);
-}
-h3 {
-  font-size: 1.5em;
-}
-h4 {
-  font-size: 1.3em;
-}
-h5 {
-  font-size: 1.2em;
-}
-h6 {
-  font-size: 1.1em;
 }
 
 p,
@@ -216,7 +246,6 @@ ul li {
 blockquote {
   border-left: 0.3rem solid var(--border-quote);
   padding-left: 1em;
-  color: var(--light-text-color);
   font-family: var(--base-font);
 }
 
@@ -268,6 +297,7 @@ tt {
 /* highlight. */
 #write mark {
   background: rgb(255, 255, 196);
+  color: var(--text-color);
 }
 
 #write del {
@@ -318,7 +348,7 @@ img[alt|="shadow"] {
   line-height: 1.6;
   white-space: pre-line;
   border-bottom: none;
-  color: var(--lighter-text-color);
+  color: var(--light-text-color);
   font-size: 0.9rem;
 }
 /* .md-toc-h1 {
@@ -358,12 +388,14 @@ footer {
   font-size: 0.9rem;
 }
 /* 代码框阴影 */
-#write pre.md-fences {
+/* #write pre.md-fences {
   display: block;
   -webkit-overflow-scrolling: touch;
   box-shadow: var(--shadow);
+} */
+.cm-s-inner .cm-variable {
+  color: var(--text-color);
 }
-
 .cm-s-inner {
   padding: 0.25rem;
   border-radius: 0.25rem;
