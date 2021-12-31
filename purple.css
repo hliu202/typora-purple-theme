@@ -65,7 +65,7 @@
     --item-hover-bg-color: var(--shadow-color);
     --active-file-border-color: var(var(--title-color));
     --base-font: "Open Sans", "Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    --title-font: "EB Garamond", Georgia, "Noto Serif", "Noto Serif CJK SC", "Nimbus Roman No9 L", "Songti SC", "Source Han Serif SC", "Source Han Serif CN", STSong, "AR PL New Sung", "AR PL SungtiL GB", NSimSun, SimSun, "TW\-Sung", "WenQuanYi Bitmap Song", "AR PL UMing CN", "AR PL UMing HK", "AR PL UMing TW", "AR PL UMing TW MBE", PMingLiU, MingLiU, "Ubuntu", "Source Sans Pro", serif;
+    --title-font: var(--base-font);
     --monospace: Courier, Monospace !important;
 }
 
@@ -360,7 +360,7 @@ img[alt|="shadow"] {
 }
 
 
-/* TOC: 加粗h2 */
+/* TOC */
 
 #write a.md-toc-inner {
     line-height: 1.6;
@@ -370,13 +370,9 @@ img[alt|="shadow"] {
     font-size: 0.9rem;
 }
 
-
-/* .md-toc-h1 {
-  display: none;
-} */
-
-.md-toc-h2 .md-toc-inner {
-    font-weight: bold;
+.md-toc-h1 .md-toc-inner {
+    margin-left: 0;
+    font-weight: normal;
 }
 
 header,
