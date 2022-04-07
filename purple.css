@@ -187,6 +187,31 @@ h2 {
     border-bottom: 1px solid var(--title-color);
 }
 
+h1 tt,
+h1 code {
+    font-size: inherit;
+}
+h2 tt,
+h2 code {
+    font-size: inherit;
+}
+h3 tt,
+h3 code {
+    font-size: inherit;
+}
+h4 tt,
+h4 code {
+    font-size: inherit;
+}
+h5 tt,
+h5 code {
+    font-size: inherit;
+}
+h6 tt,
+h6 code {
+    font-size: inherit;
+}
+
 p,
 blockquote,
 ul,
@@ -283,8 +308,7 @@ thead {
 
 
 /* inline code */
-
-#write code,
+code,
 tt {
     padding: 2px 4px;
     border-radius: 0.3rem;
