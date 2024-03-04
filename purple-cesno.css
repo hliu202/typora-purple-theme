@@ -12,6 +12,7 @@
 {
     padding: 2px 4px;
     border-radius: 0.3rem;
+    color: var(--code-color);
     background-color: var(--mark-bg);
     margin: 0px 2px;
 }
