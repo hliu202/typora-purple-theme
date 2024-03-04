@@ -1,12 +1,23 @@
 @import "./purple.css";
 
-:root {
+:root 
+{
   --base-font: Consolas , "Ubuntu Mono", "Open Sans", "Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   --title-font: var(--base-font);
   --monospace: "Ubuntu Mono", Courier, Monospace !important;
+  --mark-bg: #fdeff2;
 }
 
-/* Cesno style start */
+#write mark
+{
+    padding: 2px 4px;
+    border-radius: 0.3rem;
+    color: var(--code-color);
+    background-color: var(--mark-bg);
+    margin: 0px 2px;
+}
+
+/* Code style start */
 
 .cm-s-inner .cm-variable      {color: #f39800;}
 
@@ -22,4 +33,4 @@
 
 /* .cm-s-inner .cm-atom          {color: #c5c56a; font-weight: bold;} */
 
-/* Cesno style end */
+/* Code style end */
